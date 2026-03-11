@@ -17,6 +17,8 @@ module.exports = {
     },
     extend: {
       fontFamily: {
+        body: ['"Inter"', 'system-ui', 'sans-serif'],
+        heading: ['"Space Grotesk"', 'system-ui', 'sans-serif'],
         silkscreen: ['var(--font-silkscreen)'],
       },
       colors: {
