@@ -29,6 +29,7 @@ import { toast } from "sonner"
 import { TTSButton } from "@/components/ui/tts-button"
 import Link from "next/link"
 import UnicornScene from "unicornstudio-react"
+import { SERVER_URL } from "@/utils/commonHelper"
 
 function normalizeImageResults(raw) {
   if (!Array.isArray(raw)) return undefined
@@ -130,6 +131,23 @@ export default function ChatPage() {
     }
   }, [])
 
+  const getSessionId = useCallback(() => {
+    if (typeof window === "undefined") return "futureos-server"
+    const storageKey = "futureos_session_id"
+    let sessionId = window.localStorage.getItem(storageKey)
+    if (!sessionId) {
+      sessionId = crypto.randomUUID()
+      window.localStorage.setItem(storageKey, sessionId)
+    }
+    return sessionId
+  }, [])
+
+  const getRequestHeaders = useCallback((baseHeaders = {}) => ({
+    ...baseHeaders,
+    "X-Session-Id": getSessionId(),
+    ...(token ? { Authorization: `Bearer ${token}` } : {}),
+  }), [getSessionId, token])
+
   const formatConversationDate = useCallback((iso) => {
     if (!iso) return ""
     const date = new Date(iso)
@@ -150,8 +168,8 @@ export default function ChatPage() {
   const loadConversations = useCallback(async () => {
     try {
       setIsHistoryLoading(true)
-      const resp = await fetch("/api/proxy/conversations", {
-        headers: { ...(token ? { Authorization: `Bearer ${token}` } : {}) },
+      const resp = await fetch(`${SERVER_URL}/api/chat/conversations`, {
+        headers: getRequestHeaders(),
       })
       if (!resp.ok) throw new Error((await resp.text()) || "Failed to fetch conversations")
       const data = await resp.json()
@@ -171,7 +189,7 @@ export default function ChatPage() {
     } finally {
       setIsHistoryLoading(false)
     }
-  }, [normalizeConversationSummary, token])
+  }, [getRequestHeaders, normalizeConversationSummary])
 
   useEffect(() => { loadConversations() }, [loadConversations])
   useEffect(() => { if (!currentConversationId) return; loadConversations() }, [currentConversationId, loadConversations])
@@ -240,8 +258,8 @@ export default function ChatPage() {
     setIsHistoryOpen(false)
     setIsProfileOpen(false)
     try {
-      const resp = await fetch(`/api/proxy/conversations/${conversationId}`, {
-        headers: { ...(token ? { Authorization: `Bearer ${token}` } : {}) },
+      const resp = await fetch(`${SERVER_URL}/api/chat/conversations/${conversationId}`, {
+        headers: getRequestHeaders(),
       })
       if (!resp.ok) throw new Error((await resp.text()) || "Failed to load conversation")
       const data = await resp.json()
@@ -269,15 +287,15 @@ export default function ChatPage() {
     } finally {
       setLoadingConversationId(null)
     }
-  }, [attachPromptTitlesToHistory, normalizeMessageFromHistory, stop, token])
+  }, [attachPromptTitlesToHistory, getRequestHeaders, normalizeMessageFromHistory, stop])
 
   const handleDeleteConversation = useCallback(async (conversationId, event) => {
     event?.preventDefault()
     event?.stopPropagation()
     try {
-      const resp = await fetch(`/api/proxy/conversations/${conversationId}`, {
+      const resp = await fetch(`${SERVER_URL}/api/chat/conversations/${conversationId}`, {
         method: "DELETE",
-        headers: { ...(token ? { Authorization: `Bearer ${token}` } : {}) },
+        headers: getRequestHeaders(),
       })
       if (!resp.ok) throw new Error((await resp.text()) || "Failed to delete conversation")
       setConversations((prev) => prev.filter((c) => c.id !== conversationId))
@@ -285,7 +303,7 @@ export default function ChatPage() {
     } catch (error) {
       console.error("Failed to delete conversation", error)
     }
-  }, [currentConversationId, startNewChat, token])
+  }, [currentConversationId, getRequestHeaders, startNewChat])
 
   const filteredSuggestions = useMemo(() => {
     if (!input || input.trim().length < 2) return []
@@ -317,27 +335,15 @@ export default function ChatPage() {
       const conversationId = currentConversationId
       abortControllerRef.current = new AbortController()
 
-      let response
       if (attachments && attachments.length > 0) {
-        const formData = new FormData()
-        formData.append("prompt", userContent)
-        if (conversationId) formData.append("conversationId", conversationId)
-        formData.append("options", JSON.stringify({ includeYouTube, includeImageSearch }))
-        Array.from(attachments).forEach((file) => formData.append("files", file, file.name))
-        response = await fetch("/api/proxy/chat/stream", {
-          method: "POST",
-          body: formData,
-          headers: { ...(token ? { Authorization: `Bearer ${token}` } : {}) },
-          signal: abortControllerRef.current.signal,
-        })
-      } else {
-        response = await fetch("/api/proxy/chat/stream", {
-          method: "POST",
-          headers: { "Content-Type": "application/json", ...(token ? { Authorization: `Bearer ${token}` } : {}) },
-          body: JSON.stringify({ prompt: userContent, conversationId: conversationId || undefined, options: { includeYouTube, includeImageSearch } }),
-          signal: abortControllerRef.current.signal,
-        })
+        toast.info("File attachments are disabled on /api/chat while middleware is removed.")
       }
+      const response = await fetch(`${SERVER_URL}/api/chat/stream`, {
+        method: "POST",
+        headers: getRequestHeaders({ "Content-Type": "application/json" }),
+        body: JSON.stringify({ prompt: userContent, conversationId: conversationId || undefined, options: { includeYouTube, includeImageSearch } }),
+        signal: abortControllerRef.current.signal,
+      })
 
       if (!response.ok) throw new Error((await response.text()) || "Failed to get response from the API")
 
@@ -360,6 +366,7 @@ export default function ChatPage() {
       let streamedCodeSnippets = []
       let streamedExecutionOutputs = []
       let streamedMermaidBlocks
+      let streamedFutureOs = null
       let currentEvent = ""
       let updateTimer = null
       let pendingUpdate = false
@@ -405,6 +412,15 @@ export default function ChatPage() {
           } else if (currentEvent === "youtubeResults" && parsed.videos && Array.isArray(parsed.videos)) {
             streamedVideos = parsed.videos
             setMessages((prev) => prev.map((msg) => msg.id === assistantMessageId ? { ...msg, videos: parsed.videos } : msg))
+          } else if (currentEvent === "futureos" && parsed.data) {
+            streamedFutureOs = {
+              intent: typeof parsed.intent === "string" ? parsed.intent : null,
+              data: parsed.data,
+            }
+            if (parsed.data?.sources && Array.isArray(parsed.data.sources)) {
+              streamedSources = parsed.data.sources
+              setMessages((prev) => prev.map((msg) => msg.id === assistantMessageId ? { ...msg, sources: streamedSources } : msg))
+            }
           } else if (currentEvent === "excalidraw" && parsed.excalidrawData && Array.isArray(parsed.excalidrawData)) {
             setMessages((prev) => prev.map((msg) => msg.id === assistantMessageId ? { ...msg, excalidrawData: parsed.excalidrawData } : msg))
           } else if (currentEvent === "finish" && parsed.finishReason) {
@@ -442,16 +458,16 @@ export default function ChatPage() {
       setMessages((prev) => prev.map((msg) => msg.id === assistantMessageId ? {
         ...msg, content: finalContent, sources: streamedSources, chartUrl: msg.chartUrl, chartUrls: msg.chartUrls ?? [],
         images: streamedImages.length > 0 ? streamedImages : msg.images, videos: streamedVideos.length > 0 ? streamedVideos : msg.videos,
-        codeSnippets: streamedCodeSnippets, executionOutputs: streamedExecutionOutputs, mermaidBlocks: streamedMermaidBlocks, createdAt: new Date(), isComplete: true,
+        codeSnippets: streamedCodeSnippets, executionOutputs: streamedExecutionOutputs, mermaidBlocks: streamedMermaidBlocks, futureOs: streamedFutureOs, createdAt: new Date(), isComplete: true,
       } : msg))
 
       const chartsConversationId = resolvedConversationId ?? currentConversationId
       if (!abortControllerRef.current?.signal.aborted && chartsConversationId) {
         setAssistantStatuses((prev) => ({ ...prev, charting: "active" }))
         try {
-          const chartsResponse = await fetch("/api/proxy/charts", {
+          const chartsResponse = await fetch(`${SERVER_URL}/api/proxy/charts`, {
             method: "POST",
-            headers: { "Content-Type": "application/json", ...(token ? { Authorization: `Bearer ${token}` } : {}) },
+            headers: getRequestHeaders({ "Content-Type": "application/json" }),
             body: JSON.stringify({ prompt: userContent, conversationId: chartsConversationId, options: { includeSearch: true, includeYouTube } }),
           })
           if (chartsResponse.ok) {
@@ -505,7 +521,7 @@ export default function ChatPage() {
     try {
       const formData = new FormData()
       formData.append("audio", audioBlob, "recording.wav")
-      const response = await fetch("/api/speech/transcribe", { method: "POST", body: formData })
+      const response = await fetch(`${SERVER_URL}/api/speech/transcribe`, { method: "POST", body: formData })
       if (!response.ok) { const errorData = await response.json(); throw new Error(errorData.error || "Failed to transcribe audio") }
       const data = await response.json()
       if (data.success && data.text) return data.text
@@ -952,8 +968,8 @@ export default function ChatPage() {
 
             {/* Left: back + logo */}
             <div className="flex items-center gap-3">
-              <Image src="/logo14.png" alt="RegIntel logo" width={32} height={32} style={{ borderRadius: 8, border: "1px solid rgba(183,90,57,0.3)" }} />
-              <span className="hud-logo-text">RegIntel <span style={{ color: "#B75A39" }}>AI</span></span>
+              {/* <Image src="/logo14.png" alt="RegIntel logo" width={32} height={32} style={{ borderRadius: 8, border: "1px solid rgba(183,90,57,0.3)" }} /> */}
+              <span className="hud-logo-text">FutureOS<span style={{ color: "#B75A39" }}>AI</span></span>
             </div>
 
             {/* Desktop center actions */}

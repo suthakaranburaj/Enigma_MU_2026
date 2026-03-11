@@ -7,6 +7,7 @@ import YouTubeMCP from '../helpers/youtubeSearch.js';
 import env from '../config/env.js';
 import { processMermaidBlocks } from '../helpers/mermaid.js';
 import dbClient from '../config/dbClient.js';
+import { maybeHandleFutureOsIntent } from '../services/futureChatOrchestrator.js';
 
 // Initialize YouTube MCP
 const youtubeMCP = env.YOUTUBE_API_KEY ? new YouTubeMCP(env.YOUTUBE_API_KEY) : null;
@@ -17,6 +18,28 @@ if (!youtubeMCP) {
 const STREAM_FINISH_DEBOUNCE_MS = 80;
 const STREAM_CLOSE_DELAY_MS = 60;
 const sleep = (ms = 0) => new Promise((resolve) => setTimeout(resolve, ms));
+
+function normalizeIdValue(value) {
+  if (Array.isArray(value)) return normalizeIdValue(value[0]);
+  if (value === undefined || value === null) return '';
+  const next = String(value).trim();
+  return next;
+}
+
+function resolveRequesterId(req) {
+  const resolved =
+    normalizeIdValue(req.userId) ||
+    normalizeIdValue(req.headers?.['x-session-id']) ||
+    normalizeIdValue(req.headers?.['x-user-id']) ||
+    normalizeIdValue(req.query?.userId) ||
+    normalizeIdValue(req.body?.userId);
+
+  if (resolved) return resolved;
+
+  const forwardedFor = normalizeIdValue(req.headers?.['x-forwarded-for']);
+  const ip = forwardedFor ? forwardedFor.split(',')[0].trim() : normalizeIdValue(req.ip);
+  return ip ? `anon:${ip}` : 'anonymous';
+}
 
 /**
  * Fetch page title from URL
@@ -160,18 +183,17 @@ export async function handleChatGenerate(req, res) {
       return res.status(400).json({ error: "Prompt is required" });
     }
 
-    // userId is set by optionalAuth middleware
-    const userId = req.userId;
+    const userId = resolveRequesterId(req);
     let currentConversationId = conversationId;
 
-    // After getting the userId from req.userId
+    // Optionally hydrate user profile fields when requester id maps to a saved user
     const { data: userData, error: userError } = await dbClient
       .from('users')
       .select('username, email') // Select the fields you need
       .eq('id', userId)
       .single();
 
-    if (userError) {
+    if (userError && userError.code !== 'PGRST116') {
       console.error('Error fetching user data:', userError);
       // Handle error or continue without username
     }
@@ -232,11 +254,13 @@ export async function handleChatGenerate(req, res) {
       : (uploads.length === 0);
 
     // Generate AI response
+    const profileOverride = options.profile ?? req.body?.profile ?? null;
     const response = await generateContent(prompt, userId, {
       history: chatHistory.slice(-10), // Only keep last 10 messages for context
       includeSearch: effectiveIncludeSearch,
       uploads,
       username,
+      profile: profileOverride,
       // Reset history when new files arrive unless explicitly kept
       resetHistory: uploads.length > 0 && options.keepHistoryWithFiles !== true
     });
@@ -298,6 +322,8 @@ export async function handleChatGenerate(req, res) {
       codeSnippets: aiCodeSnippets,
       executionOutputs: aiExecutionOutputs,
       excalidrawData: aiExcalidrawData, // Include in API response
+      futureOsIntent: response?.futureOsIntent || null,
+      futureOsData: response?.futureOsData || null,
       timestamp: new Date().toISOString(),
       processingTime,
       attempts: response?.attempts || 1,
@@ -331,7 +357,7 @@ export async function handleChatStreamGenerate(req, res) {
       return res.status(400).json({ error: "Prompt is required" });
     }
 
-    const userId = req.userId;
+    const userId = resolveRequesterId(req);
     let currentConversationId = conversationId;
     let streamedContent = '';
     const streamedSources = new Set();
@@ -339,14 +365,14 @@ export async function handleChatStreamGenerate(req, res) {
     let streamedExcalidrawData = []; // Capture generated charts
     let streamComplete = false; // Track if we received finishReason: "STOP"
     let lastFinishReason = null; // Store the finish reason for validation
-    // After getting the userId from req.userId
+    // Optionally hydrate user profile fields when requester id maps to a saved user
     const { data: userData, error: userError } = await dbClient
       .from('users')
       .select('username, email') // Select the fields you need
       .eq('id', userId)
       .single();
 
-    if (userError) {
+    if (userError && userError.code !== 'PGRST116') {
       console.error('Error fetching user data:', userError);
       // Handle error or continue without username
     }
@@ -469,6 +495,85 @@ export async function handleChatStreamGenerate(req, res) {
     if (youtubeVideos.length > 0) {
       res.write(`event: youtubeResults\n`);
       res.write(`data: ${JSON.stringify({ videos: youtubeVideos })}\n\n`);
+    }
+
+    // FutureOS intent handling in stream pipeline.
+    // If matched, return immediately without calling upstream stream endpoint.
+    let profileOverride = options.profile ?? req.body?.profile ?? null;
+    if (typeof profileOverride === 'string') {
+      try {
+        profileOverride = JSON.parse(profileOverride);
+      } catch (_) {
+        profileOverride = null;
+      }
+    }
+    const futureIntentResult = await maybeHandleFutureOsIntent({
+      prompt,
+      userId,
+      profileOverride,
+    });
+
+    if (futureIntentResult?.handled) {
+      streamedContent = futureIntentResult.content || '';
+      streamComplete = true;
+      lastFinishReason = 'STOP';
+      finalSourcesWithTitles = Array.isArray(futureIntentResult?.data?.sources)
+        ? futureIntentResult.data.sources
+        : [];
+
+      res.write(`event: futureos\n`);
+      res.write(`data: ${JSON.stringify({
+        intent: futureIntentResult.intent,
+        data: futureIntentResult.data,
+      })}\n\n`);
+
+      if (finalSourcesWithTitles.length > 0) {
+        res.write(`event: sources\n`);
+        res.write(`data: ${JSON.stringify({ sources: finalSourcesWithTitles })}\n\n`);
+      }
+
+      if (streamedContent) {
+        res.write(`event: message\n`);
+        res.write(`data: ${JSON.stringify({ text: streamedContent })}\n\n`);
+      }
+
+      res.write(`event: finish\n`);
+      res.write(`data: ${JSON.stringify({ finishReason: 'STOP' })}\n\n`);
+
+      try {
+        const { error: saveError } = await dbClient
+          .from('messages')
+          .insert([
+            {
+              conversation_id: currentConversationId,
+              role: 'user',
+              content: prompt,
+              sources: [],
+            },
+            {
+              conversation_id: currentConversationId,
+              role: 'model',
+              content: streamedContent,
+              sources: finalSourcesWithTitles,
+              images: imageResults,
+              videos: youtubeVideos.length > 0 ? youtubeVideos : null,
+            },
+          ]);
+
+        if (saveError) {
+          console.error('Error saving FutureOS stream messages:', saveError);
+        }
+
+        await dbClient
+          .from('conversations')
+          .update({ updated_at: new Date().toISOString() })
+          .eq('id', currentConversationId);
+      } catch (dbError) {
+        console.error('Database error for FutureOS stream handling:', dbError);
+      }
+
+      await sleep(STREAM_CLOSE_DELAY_MS);
+      return res.end();
     }
 
     const upstream = await fetch(url, {
@@ -794,14 +899,10 @@ export async function handleChatStreamGenerate(req, res) {
   }
 }
 
-// Get all conversations for the authenticated user
+// Get all conversations for the current requester (JWT user or session id)
 export async function getConversations(req, res) {
   try {
-    const userId = req.userId;
-
-    if (!userId) {
-      return res.status(401).json({ error: 'Unauthorized' });
-    }
+    const userId = resolveRequesterId(req);
 
     const { data: conversations, error } = await dbClient
       .from('conversations')
@@ -824,13 +925,13 @@ export async function getConversations(req, res) {
 export async function getConversationHistory(req, res) {
   try {
     const { conversationId } = req.params;
-    const userId = req.userId;
+    const userId = resolveRequesterId(req);
 
     if (!conversationId) {
       return res.status(400).json({ error: 'Conversation ID is required' });
     }
 
-    // Fetch conversation and verify ownership (if user is authenticated)
+    // Fetch conversation and verify ownership
     const { data: conversation, error: convError } = await dbClient
       .from('conversations')
       .select('id, user_id, title, created_at, updated_at')
@@ -840,7 +941,7 @@ export async function getConversationHistory(req, res) {
     if (convError || !conversation) {
       return res.status(404).json({ error: 'Conversation not found' });
     }
-    if (userId && conversation.user_id && conversation.user_id !== userId) {
+    if (conversation.user_id && conversation.user_id !== userId) {
       return res.status(403).json({ error: 'Access denied' });
     }
 
@@ -873,15 +974,11 @@ export async function getConversationHistory(req, res) {
   }
 }
 
-// Delete a conversation and its messages (requires authentication)
+// Delete a conversation and its messages for the current requester scope
 export async function deleteConversation(req, res) {
   try {
     const { conversationId } = req.params;
-    const userId = req.userId;
-
-    if (!userId) {
-      return res.status(401).json({ error: 'Unauthorized' });
-    }
+    const userId = resolveRequesterId(req);
     if (!conversationId) {
       return res.status(400).json({ error: 'Conversation ID is required' });
     }

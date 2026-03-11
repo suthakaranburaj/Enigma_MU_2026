@@ -10,6 +10,7 @@ import {
   generateCareerRoadmap,
   generateFutureScenarios,
   predictCareerTrends,
+  realityCheck as analyzeRealityCheck,
 } from '../services/futureAiService.js';
 
 function toStringArray(value) {
@@ -117,6 +118,7 @@ export async function futureSimulate(req, res) {
       data: {
         simulationId: simulation.id,
         scenarios: data.scenarios,
+        sources: Array.isArray(data.sources) ? data.sources : [],
       },
     });
   } catch (error) {
@@ -238,5 +240,27 @@ export async function careerTrends(req, res) {
     });
   } catch (error) {
     return sendError(res, error, 'Failed to predict career trends');
+  }
+}
+
+export async function realityCheck(req, res) {
+  try {
+    const body = req.body || {};
+    const plan = body.plan ?? body;
+
+    if (!plan || (typeof plan !== 'object' && typeof plan !== 'string')) {
+      return res.status(400).json({
+        success: false,
+        error: 'plan is required',
+      });
+    }
+
+    const data = await analyzeRealityCheck(plan);
+    return res.json({
+      success: true,
+      data,
+    });
+  } catch (error) {
+    return sendError(res, error, 'Failed to generate reality check');
   }
 }

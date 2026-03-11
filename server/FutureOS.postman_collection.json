@@ -1,0 +1,189 @@
+{
+  "info": {
+    "_postman_id": "1f5f2be8-cb65-4635-a407-46e3f56abc4d",
+    "name": "FutureOS Backend APIs",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": "Postman collection for FutureOS AI endpoints."
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:5000"
+    }
+  ],
+  "item": [
+    {
+      "name": "Create Profile",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"userId\": \"user-123\",\n  \"name\": \"Umair\",\n  \"education\": \"B.Tech Computer Science\",\n  \"skills\": [\"JavaScript\", \"Node.js\"],\n  \"interests\": [\"AI\", \"Product\"],\n  \"careerGoals\": \"Become an AI Product Engineer\",\n  \"riskTolerance\": \"medium\",\n  \"lifestylePreference\": \"balanced\"\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/profile",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "profile"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Future Simulate",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"profile\": {\n    \"userId\": \"user-123\",\n    \"name\": \"Umair\",\n    \"education\": \"B.Tech Computer Science\",\n    \"skills\": [\"JavaScript\", \"Node.js\"],\n    \"interests\": [\"AI\", \"Product\"],\n    \"careerGoals\": \"Become an AI Product Engineer\",\n    \"riskTolerance\": \"medium\",\n    \"lifestylePreference\": \"balanced\"\n  }\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/future-simulate",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "future-simulate"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Skill Gap",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"profile\": {\n    \"userId\": \"user-123\",\n    \"skills\": [\"JavaScript\", \"Node.js\", \"SQL\"],\n    \"careerGoals\": \"AI Engineer\"\n  }\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/skill-gap",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "skill-gap"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Roadmap",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"careerGoal\": \"Become an AI Product Engineer\",\n  \"profile\": {\n    \"skills\": [\"JavaScript\", \"Node.js\"],\n    \"education\": \"B.Tech Computer Science\"\n  }\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/roadmap",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "roadmap"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Future Chat",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"userId\": \"user-123\",\n  \"message\": \"Should I focus on AI agents or cybersecurity?\",\n  \"profile\": {\n    \"skills\": [\"JavaScript\", \"Node.js\"],\n    \"careerGoals\": \"AI Engineer\"\n  }\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/future-chat",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "future-chat"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Career Trends",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/career-trends",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "career-trends"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Reality Check",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"plan\": {\n    \"goal\": \"Become AI startup founder by 2030\",\n    \"currentSkills\": [\"JavaScript\", \"Node.js\"],\n    \"budget\": \"low\",\n    \"timeline\": \"4 years\"\n  }\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/reality-check",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "reality-check"
+          ]
+        }
+      }
+    }
+  ]
+}

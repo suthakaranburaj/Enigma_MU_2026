@@ -17,12 +17,12 @@ if (process.env.NODE_ENV !== 'production') {
       process.exit(1);
     }
   } else {
-    console.warn('⚠️  .env file not found, using environment variables from Vercel');
+    console.warn('⚠️  .env file not found, using environment variables from host runtime');
   }
 }
 
 // Verify required environment variables
-const requiredEnvVars = ['GEMINI_API_KEY', 'GROQ_KEY', 'MONGODB_URI'];
+const requiredEnvVars = ['GEMINI_API_KEY', 'MONGODB_URI'];
 const missingVars = requiredEnvVars.filter(varName => !process.env[varName]?.trim());
 
 if (missingVars.length > 0) {
@@ -35,10 +35,10 @@ console.log('\n📋 Environment Configuration:');
 console.log('='.repeat(50));
 console.log(`- NODE_ENV: ${process.env.NODE_ENV || 'development'}`);
 console.log(`- GEMINI_API_KEY: ${process.env.GEMINI_API_KEY ? '✅ set' : '❌ not set'}`);
-console.log(`- GEMINI_API_KEY2: ${process.env.GEMINI_API_KEY2 ? '✅ set' : '❌ not set'}`);
-console.log(`- OPENAI_API_KEY: ${process.env.OPENAI_API_KEY ? '✅ set' : '⚠️  not set (FutureOS AI endpoints disabled)'}`);
+console.log(`- GEMINI_API_KEY2: ${process.env.GEMINI_API_KEY2 ? '✅ set' : '⚠️  not set'}`);
+console.log(`- OPENAI_API_KEY: ${process.env.OPENAI_API_KEY ? '✅ set (optional)' : '⚠️  not set (optional)'}`);
 console.log(`- MONGODB_URI: ${process.env.MONGODB_URI ? '✅ set' : '❌ not set'}`);
-console.log(`- GROQ_KEY: ${process.env.GROQ_KEY ? '✅ set' : '❌ not set'}`);
+console.log(`- GROQ_KEY: ${process.env.GROQ_KEY ? '✅ set (optional)' : '⚠️  not set (optional)'}`);
 console.log(`- NEO4J_URI: ${process.env.NEO4J_URI ? '✅ set' : '⚠️  not set (GraphRAG disabled)'}`);
 console.log(`- NEO4J_USERNAME: ${process.env.NEO4J_USERNAME || process.env.NEO4J_USER ? '✅ set' : '⚠️  not set (GraphRAG disabled)'}`);
 console.log(`- NEO4J_PASSWORD: ${process.env.NEO4J_PASSWORD ? '✅ set' : '⚠️  not set (GraphRAG disabled)'}`);

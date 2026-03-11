@@ -9,6 +9,7 @@ import { STOCK_EXPERT_PROMPT } from "../prompts/stockexpert.js";
 import { RETIREMENT_TAX_EXPERT_PROMPT } from "../prompts/retierment_tax_expert.js";
 import { generateExcalidrawFlowchart } from "./groq.js";
 import { searchKnowledgeGraph } from "./neo4jGraphRAG.js";
+import { maybeHandleFutureOsIntent } from "../services/futureChatOrchestrator.js";
 
 import env from "../config/env.js";
 
@@ -719,6 +720,53 @@ export async function generateContent(
   const startTime = Date.now();
 
   try {
+    let profileOverride = options.profile;
+    if (typeof profileOverride === 'string') {
+      try {
+        profileOverride = JSON.parse(profileOverride);
+      } catch (_) {
+        profileOverride = null;
+      }
+    }
+
+    // Intercept FutureOS-specific intents and return focused results
+    // while preserving the same response envelope used by the chat pipeline.
+    try {
+      const intentResult = await maybeHandleFutureOsIntent({
+        prompt,
+        userId,
+        profileOverride: profileOverride || null,
+      });
+      if (intentResult?.handled) {
+        const userHistory = chatHistory.get(userId);
+        const userMessage = {
+          role: 'user',
+          parts: [{ text: String(prompt || '') }],
+        };
+        const updatedHistory = [...userHistory, userMessage, {
+          role: 'model',
+          parts: [{ text: intentResult.content || '' }],
+        }].slice(-(CONFIG.MAX_HISTORY_LENGTH * 2));
+        chatHistory.set(userId, updatedHistory);
+
+        return {
+          content: intentResult.content || '',
+          sources: Array.isArray(intentResult?.data?.sources) ? intentResult.data.sources : [],
+          codeSnippets: [],
+          executionOutputs: [],
+          functionCalls: [],
+          futureOsIntent: intentResult.intent,
+          futureOsData: intentResult.data,
+          futureOsMeta: intentResult.metadata || {},
+          timestamp: new Date().toISOString(),
+          processingTime: Date.now() - startTime,
+          attempts: 1,
+        };
+      }
+    } catch (intentError) {
+      console.warn('[FutureOS Intent] non-fatal intent handler error:', intentError?.message || intentError);
+    }
+
     // Select the appropriate system prompt based on expert type
     const expertType = (options.expert || 'research').toLowerCase();
     const customSystemPrompt = options.systemPrompt;

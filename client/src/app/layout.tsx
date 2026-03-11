@@ -1,36 +1,13 @@
 import type { Metadata } from "next";
-import { Epilogue, Geist_Mono, Playfair_Display, Silkscreen } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/ui/theme-provider";
 import { AuthProvider } from "@/contexts/auth-context";
 import { Toaster } from "@/components/ui/sonner";
 import { Analytics } from "@vercel/analytics/next";
 
-const epilogue = Epilogue({
-  variable: "--font-epilogue",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
-const playfair = Playfair_Display({
-  subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
-  variable: '--font-playfair',
-});
-
-const silkscreen = Silkscreen({
-  weight: ['400', '700'],
-  subsets: ['latin'],
-  variable: '--font-silkscreen',
-});
-
 export const metadata: Metadata = {
-  title: "RegIntel",
-  description: "Regulatory intelligence workspace",
+  title: "FutureOS",
+  description: "FutureOS workspace",
   icons: {
     icon: "/logo14.png",
     shortcut: "/logo14.png",
@@ -46,7 +23,15 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning className="h-full">
       <body
-        className={`${epilogue.variable} ${geistMono.variable} ${silkscreen.variable} ${playfair.variable} antialiased h-full`}
+        className="antialiased h-full"
+        style={
+          {
+            "--font-epilogue": "system-ui, -apple-system, Segoe UI, sans-serif",
+            "--font-geist-mono": "ui-monospace, SFMono-Regular, Menlo, monospace",
+            "--font-playfair": "Georgia, 'Times New Roman', serif",
+            "--font-silkscreen": "monospace",
+          } as React.CSSProperties
+        }
         suppressHydrationWarning
       >
         <ThemeProvider

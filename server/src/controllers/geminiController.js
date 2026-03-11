@@ -74,6 +74,7 @@ export async function handleGenerate(req, res) {
       {
         expert,
         systemPrompt,
+        profile: options.profile ?? req.body?.profile ?? null,
         includeSearch: effectiveIncludeSearch,
         uploads,
         // By default, when new files are attached, do NOT use prior chat history
