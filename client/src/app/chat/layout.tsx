@@ -12,12 +12,12 @@ export default function ChatLayout({
   children: React.ReactNode;
 }) {
   return (
-    <ProtectedRoute>
+    // <ProtectedRoute>
       <div className="flex flex-col min-h-screen">
         <main className="flex-1">
           {children}
         </main>
       </div>
-    </ProtectedRoute>
+    // </ProtectedRoute>
   );
 }
