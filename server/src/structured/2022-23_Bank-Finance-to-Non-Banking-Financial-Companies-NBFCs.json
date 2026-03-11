@@ -1,0 +1,201 @@
+{
+  "circular": {
+    "id": "2025-26/15",
+    "title": "Master Circular - Bank Finance to Non-Banking Financial Companies (NBFCs)",
+    "date": "2025-04-01",
+    "circular_number": "RBI/2025-26/15 (DOR.CRE.REC.No.05/21.04.172/2025-26)",
+    "type": "Master Direction",
+    "topic": "Credit",
+    "applicable_to": [
+      "All Scheduled Commercial Banks (excluding Regional Rural Banks)"
+    ],
+    "status": "Active",
+    "summary": "This Master Circular consolidates all existing instructions issued by the Reserve Bank of India up to March 31, 2025, regarding bank financing to Non-Banking Financial Companies (NBFCs). It outlines the regulatory policy governing credit dispensation to registered and exempted NBFCs, while maintaining specific restrictions on sensitive activities. The circular establishes prudential exposure ceilings under the Large Exposures Framework and details the eligibility criteria for financing factoring companies."
+  },
+  "clauses": [
+    {
+      "clause_number": "1.1",
+      "text": "a. 'Current investments' means the investments classified in the balance sheet of the borrower as 'current assets' and are intended to be held for less than one year.",
+      "summary": "Definition of current investments",
+      "type": "Definition"
+    },
+    {
+      "clause_number": "1.2",
+      "text": "The credit related matters of banks have been progressively deregulated. However, in view of the sensitivities attached to financing of certain types of activities undertaken by NBFCs, restrictions on financing of such activities continue to be in force.",
+      "summary": "Background on bank finance to NBFCs",
+      "type": "Prohibition"
+    },
+    {
+      "clause_number": "2.1",
+      "text": "The ceiling on bank credit linked to Net Owned Fund (NOF) of NBFCs has been withdrawn for all NBFCs statutorily registered with RBI and engaged in principal business of asset financing, loan, factoring and investment activities.",
+      "summary": "Removal of ceiling on bank credit to NBFCs",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "2.3",
+      "text": "Banks may formulate suitable loan policy with the approval of their Boards of Directors within the prudential guidelines and exposure norms prescribed by the Reserve Bank to extend various kinds of credit facilities to NBFCs subject to the condition that prohibited activities are not financed.",
+      "summary": "Formulation of loan policy for NBFCs",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "4.1",
+      "text": "The following activities undertaken by NBFCs are not eligible for bank credit: (i) Bills discounted / rediscounted by NBFCs, except for rediscounting of bills arising from sale of commercial vehicles and two/three wheeler vehicles, subject to specific conditions.",
+      "summary": "Prohibited activities for bank credit to NBFCs",
+      "type": "Prohibition"
+    },
+    {
+      "clause_number": "5.1",
+      "text": "Banks can extend financial assistance to NBFC-Factors and NBFC-ICCs holding certificate of registration under the Factoring Regulation Act, 2011.",
+      "summary": "Eligibility for bank finance to factoring companies",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "6.1",
+      "text": "Banks should not grant bridge loans of any nature, or interim finance against capital / debenture issues and / or in the form of loans of a bridging nature pending raising of long-term funds from the market to all categories of NBFCs.",
+      "summary": "Prohibition on bridge loans to NBFCs",
+      "type": "Prohibition"
+    },
+    {
+      "clause_number": "7.1",
+      "text": "Exposure computation as per Circular on Large Exposures Framework dated June 03, 2019.",
+      "summary": "Exposure computation for bank credit to NBFCs",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "7.2",
+      "text": "Exposure to a single NBFC (excl. gold loan companies) restricted to 20% of eligible Tier I capital base.",
+      "summary": "Prudential ceiling for exposure to NBFCs",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "9",
+      "text": "Banks’ exposure to NBFCs shall be subject to capital charge as per Risk Weight prescribed in paragraph 5 of Master Circular – Basel III Capital Regulations dated April 01, 2025.",
+      "summary": "Risk weights for bank credit to NBFCs",
+      "type": "Obligation"
+    }
+  ],
+  "obligations": [
+    {
+      "text": "Formulate a suitable loan policy with Board approval within prescribed prudential guidelines and exposure norms for extending credit to NBFCs.",
+      "plain_english": "Banks must create a loan policy for NBFCs with board approval, following RBI guidelines.",
+      "applicable_to": [
+        "All Scheduled Commercial Banks (excluding Regional Rural Banks)"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "2.3"
+    },
+    {
+      "text": "Ensure that bank credit is not extended to NBFCs for prohibited activities.",
+      "plain_english": "Banks must not give credit to NBFCs for prohibited activities like bills rediscounting, investments in shares, unsecured loans, etc.",
+      "applicable_to": [
+        "All Scheduled Commercial Banks (excluding Regional Rural Banks)"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "4.1"
+    },
+    {
+      "text": "Verify that Factoring Companies derive at least 50% of income from factoring and have at least 50% factoring assets to be eligible for bank finance.",
+      "plain_english": "Banks must check if factoring companies meet the 50% income and asset criteria to be eligible for credit.",
+      "applicable_to": [
+        "All Scheduled Commercial Banks (excluding Regional Rural Banks)"
+      ],
+      "deadline_days": null,
+      "frequency": "One-time",
+      "source_clause": "5.2"
+    },
+    {
+      "text": "Restrict exposure to a single NBFC (excluding gold loan companies) to 20% of Tier I Capital.",
+      "plain_english": "Banks must limit their exposure to a single NBFC (excluding gold loan companies) to 20% of their Tier I capital.",
+      "applicable_to": [
+        "All Scheduled Commercial Banks (excluding Regional Rural Banks)"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "7.2"
+    },
+    {
+      "text": "Apply risk weights for bank credit to NBFCs as prescribed in the Basel III Capital Regulations.",
+      "plain_english": "Banks must apply the prescribed risk weights for credit to NBFCs, as per Basel III regulations.",
+      "applicable_to": [
+        "All Scheduled Commercial Banks (excluding Regional Rural Banks)"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "9"
+    }
+  ],
+  "prohibitions": [
+    {
+      "text": "Banks should not grant bridge loans of any nature, or interim finance against capital / debenture issues and / or in the form of loans of a bridging nature pending raising of long-term funds from the market to all categories of NBFCs.",
+      "plain_english": "Banks are not allowed to give bridge loans or interim finance to NBFCs.",
+      "applicable_to": [
+        "All Scheduled Commercial Banks (excluding Regional Rural Banks)"
+      ],
+      "source_clause": "6.1"
+    },
+    {
+      "text": "Banks should not enter into lease agreements departmentally with equipment leasing companies.",
+      "plain_english": "Banks are not allowed to lease equipment from leasing companies.",
+      "applicable_to": [
+        "All Scheduled Commercial Banks (excluding Regional Rural Banks)"
+      ],
+      "source_clause": "4.2"
+    },
+    {
+      "text": "Shares and debentures cannot be accepted as collateral securities for secured loans granted to NBFC borrowers for any purpose.",
+      "plain_english": "Banks are not allowed to accept shares or debentures as collateral for loans to NBFCs.",
+      "applicable_to": [
+        "All Scheduled Commercial Banks (excluding Regional Rural Banks)"
+      ],
+      "source_clause": "6.2"
+    }
+  ],
+  "penalties": [],
+  "definitions": [
+    {
+      "term": "NBFCs",
+      "definition": "Non-Banking Financial Companies registered with the RBI, including Housing Finance Companies (HFCs).",
+      "plain_english": "Non-bank financial companies registered with the RBI."
+    },
+    {
+      "term": "Current investments",
+      "definition": "Investments intended to be held for less than one year.",
+      "plain_english": "Short-term investments."
+    },
+    {
+      "term": "Long term investments",
+      "definition": "Investments other than current investments.",
+      "plain_english": "Long-term investments."
+    },
+    {
+      "term": "Unsecured loans",
+      "definition": "Loans not secured by any tangible asset.",
+      "plain_english": "Loans without collateral."
+    },
+    {
+      "term": "NBFC-Factors",
+      "definition": "NBFCs holding a certificate of registration under the Factoring Regulation Act, 2011 and meeting the 50% income/asset criteria.",
+      "plain_english": "Factoring companies registered under the Factoring Regulation Act, 2011."
+    }
+  ],
+  "references": [
+    {
+      "circular_number": "DOR.CRE.REC.No.17/21.04.172/2024-25",
+      "relationship": "supersedes"
+    },
+    {
+      "circular_number": "June 03, 2019",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "February 11, 2014",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "April 01, 2025",
+      "relationship": "references"
+    }
+  ]
+}

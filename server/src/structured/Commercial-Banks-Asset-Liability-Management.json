@@ -1,0 +1,104 @@
+{
+  "circular": {
+    "id": "Commercial-Banks-Asset-Liability-Management",
+    "title": "Reserve Bank of India (Commercial Banks – Asset Liability Management) Directions, 2025",
+    "date": "2025-11-28",
+    "circular_number": "RBI/DOR/2025-26/163 (DOR.LRG.No.82/13-10-001/2025-26)",
+    "type": "Master Direction",
+    "topic": "Other",
+    "applicable_to": [
+      "Commercial Banks",
+      "State Bank of India",
+      "Correspondent new banks"
+    ],
+    "status": "Active",
+    "summary": "These Directions mandate that all commercial banks in India establish a robust Asset Liability Management framework to manage liquidity and interest rate risks effectively. Banks are required to implement a tiered governance structure and maintain strict liquidity ratios. The framework involves conducting regular stress tests to ensure resilience against financial shocks."
+  },
+  "clauses": [
+    {
+      "clause_number": "1. Short Title and Commencement",
+      "text": "These Directions are the Reserve Bank of India (Commercial Banks – Asset Liability Management) Directions, 2025, effective from the date of issue.",
+      "summary": "Title and commencement of the Directions",
+      "type": "Definition"
+    },
+    {
+      "clause_number": "2. Applicability",
+      "text": "These Directions apply to all Commercial Banks, including the State Bank of India and corresponding new banks, excluding SFBs, Payment Banks, and Local Area Banks.",
+      "summary": "Applicability of the Directions",
+      "type": "Definition"
+    },
+    {
+      "clause_number": "100-104. Objective and Definition",
+      "text": "Banks must maintain LCR (Stock of HQLA / Total net cash outflows over 30 days) at a minimum of 100% on an ongoing basis.",
+      "summary": "Liquidity Coverage Ratio (LCR) objective and definition",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "205-214. Objective and Definition",
+      "text": "Banks must maintain NSFR (Available Stable Funding / Required Stable Funding) at a minimum of 100% on an ongoing basis.",
+      "summary": "Net Stable Funding Ratio (NSFR) objective and definition",
+      "type": "Obligation"
+    }
+  ],
+  "obligations": [
+    {
+      "text": "Maintain Liquidity Coverage Ratio (LCR) at a minimum of 100%",
+      "plain_english": "Banks must maintain a minimum LCR of 100% to ensure liquidity",
+      "applicable_to": [
+        "Commercial Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "100-104. Objective and Definition"
+    },
+    {
+      "text": "Maintain Net Stable Funding Ratio (NSFR) at a minimum of 100%",
+      "plain_english": "Banks must maintain a minimum NSFR of 100% to ensure stable funding",
+      "applicable_to": [
+        "Commercial Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "205-214. Objective and Definition"
+    },
+    {
+      "text": "Conduct annual Board review of liquidity risk strategies and policies",
+      "plain_english": "Banks must review liquidity risk strategies and policies annually",
+      "applicable_to": [
+        "Commercial Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Annual",
+      "source_clause": "4. Conduct annual Board review of liquidity risk strategies and policies"
+    }
+  ],
+  "prohibitions": [
+    {
+      "text": "Inter-bank Liability (IBL) shall not exceed 200% of Net Worth",
+      "plain_english": "Banks cannot exceed 200% of Net Worth for Inter-bank Liability",
+      "applicable_to": [
+        "Commercial Banks"
+      ],
+      "source_clause": "53-54. Monitoring of Liquidity"
+    }
+  ],
+  "penalties": [],
+  "definitions": [
+    {
+      "term": "Liquidity Coverage Ratio (LCR)",
+      "definition": "Stock of HQLA / Total net cash outflows over 30 days",
+      "plain_english": "LCR measures a bank's ability to meet short-term liquidity needs"
+    },
+    {
+      "term": "Net Stable Funding Ratio (NSFR)",
+      "definition": "Available Stable Funding / Required Stable Funding",
+      "plain_english": "NSFR measures a bank's ability to fund assets with stable sources"
+    }
+  ],
+  "references": [
+    {
+      "circular_number": "DOR.RRC.REC.302/33-01-010/2025-26",
+      "relationship": "supersedes"
+    }
+  ]
+}

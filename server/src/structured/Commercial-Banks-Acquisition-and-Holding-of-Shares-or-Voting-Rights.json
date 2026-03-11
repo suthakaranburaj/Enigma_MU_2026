@@ -1,0 +1,92 @@
+{
+  "circular": {
+    "id": "Commercial-Banks-Acquisition-and-Holding-of-Shares-or-Voting-Rights",
+    "title": "Reserve Bank of India (Commercial Banks – Acquisition and Holding of Shares or Voting Rights) Directions, 2025",
+    "date": "2025-11-28",
+    "circular_number": "RBI/DOR/2025-26/145",
+    "type": "Master Direction",
+    "topic": "Governance",
+    "applicable_to": [
+      "Commercial Banks"
+    ],
+    "status": "Active",
+    "summary": "These Directions ensure that the ownership and control of Indian banking companies remain well-diversified and that major shareholders meet 'fit and proper' criteria on a continuing basis. Any person intending to acquire a 'major shareholding' must obtain prior approval from the Reserve Bank of India. The directions set strict shareholding limits for promoters and non-promoters, mandate a five-year lock-in period for significant acquisitions, and prohibit entities from FATF non-compliant jurisdictions from acquiring major stakes."
+  },
+  "clauses": [
+    {
+      "clause_number": "1",
+      "text": "These directions shall be called the Reserve Bank of India (Commercial Banks – Acquisition and Holding of Shares or Voting Rights) Directions, 2025.",
+      "summary": "Short title of the directions",
+      "type": "Definition"
+    },
+    {
+      "clause_number": "6",
+      "text": "A banking company shall put in place a board-approved ‘fit and proper’ criterion for major shareholders.",
+      "summary": "Obligation to establish fit and proper criteria",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "7",
+      "text": "Any person intending an acquisition resulting in major shareholding must seek previous RBI approval through the PRAVAAH portal.",
+      "summary": "Obligation to seek prior RBI approval",
+      "type": "Obligation"
+    }
+  ],
+  "obligations": [
+    {
+      "text": "Obtain prior RBI approval before acquiring 5% or more of paid-up share capital or voting rights.",
+      "plain_english": "Get RBI approval before buying significant shares",
+      "applicable_to": [
+        "Applicants"
+      ],
+      "deadline_days": null,
+      "frequency": "One-time",
+      "source_clause": "7"
+    },
+    {
+      "text": "Put in place a board-approved ‘fit and proper’ criterion for major shareholders.",
+      "plain_english": "Establish criteria for major shareholders",
+      "applicable_to": [
+        "Banking Company"
+      ],
+      "deadline_days": null,
+      "frequency": "One-time",
+      "source_clause": "6"
+    }
+  ],
+  "prohibitions": [
+    {
+      "text": "Persons from FATF non-compliant jurisdictions are prohibited from major shareholding.",
+      "plain_english": "No major shareholding from non-compliant jurisdictions",
+      "applicable_to": [
+        "Persons from FATF non-compliant jurisdictions"
+      ],
+      "source_clause": "15"
+    }
+  ],
+  "penalties": [
+    {
+      "amount": "Under Section 12B(5) of B R Act, 1949",
+      "condition": "Failure to obtain prior RBI approval",
+      "section": "12B(5) of B R Act, 1949"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "Acquisition",
+      "definition": "Acquiring or agreeing to acquire shares (equity and preference) or voting rights, directly or indirectly.",
+      "plain_english": "Buying shares or voting rights"
+    },
+    {
+      "term": "Major Shareholding",
+      "definition": "Aggregate holding of 5% or more of the paid-up share capital or voting rights.",
+      "plain_english": "Significant shareholding"
+    }
+  ],
+  "references": [
+    {
+      "circular_number": "DOR.RRC.REC.302/33-01-010/2025-26",
+      "relationship": "supersedes"
+    }
+  ]
+}

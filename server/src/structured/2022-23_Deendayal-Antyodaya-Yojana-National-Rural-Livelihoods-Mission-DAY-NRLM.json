@@ -1,0 +1,315 @@
+{
+  "circular": {
+    "id": "2022-23_Deendayal-Antyodaya-Yojana-National-Rural-Livelihoods-Mission-DAY-NRLM",
+    "title": "Master Circular – Deendayal Antyodaya Yojana - National Rural Livelihoods Mission (DAY-NRLM)",
+    "date": "2025-04-01",
+    "circular_number": "FIDD.GSSD.CO.BC.No.01/09.01.003/2025-26",
+    "type": "Master Direction",
+    "topic": "PSL",
+    "applicable_to": [
+      "Public Sector Banks",
+      "Private Sector Banks",
+      "Small Finance Banks"
+    ],
+    "status": "Active",
+    "summary": "This Master Circular consolidates guidelines for Deendayal Antyodaya Yojana - National Rural Livelihoods Mission (DAY-NRLM) implementation, providing a framework for banks to assist Self Help Groups (SHGs) of rural poor, particularly women. It outlines credit linkage processes, loan amounts, repayment schedules, and security requirements. The mission aims at poverty reduction through building strong institutions for the poor and enabling access to financial services."
+  },
+  "clauses": [
+    {
+      "clause_number": "2.1",
+      "text": "DAY-NRLM promotes affinity-based women SHGs. Groups for persons with disabilities, elders, and transgenders may include both men and women.",
+      "summary": "DAY-NRLM promotes women SHGs",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "2.2",
+      "text": "SHGs consist of 10-20 members; special SHGs (remote/tribal/disabled) may have a minimum of 5 members.",
+      "summary": "SHG membership size",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "3",
+      "text": "MoRD provides RF support of ₹20,000 - ₹30,000 per SHG to groups in existence for 3/6 months that follow 'Panchasutras'.",
+      "summary": "Revolving Fund support",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "7.1",
+      "text": "Banks shall open savings accounts for SHGs and their federations.",
+      "summary": "Opening savings accounts for SHGs",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "7.2",
+      "text": "Banks are advised to put in place dual-authentication facility in both ON-US and OFF-US environments for BC-managed retail outlets.",
+      "summary": "Dual-authentication facility",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "7.3.1",
+      "text": "SHGs must be in active existence for at least 6 months and practicing 'Panchasutras'.",
+      "summary": "SHG eligibility criteria",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "7.3.2",
+      "text": "Banks must use Common Loan Application Forms devised by IBA.",
+      "summary": "Loan application forms",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "7.3.3",
+      "text": "Banks are advised to sanction a minimum CCL of ₹6 lakh for 3 years.",
+      "summary": "Minimum CCL sanction",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "7.3.4",
+      "text": "Banks may consider loans up to ₹10 lakh to individual members of matured SHGs for viable enterprises.",
+      "summary": "Loans to individual SHG members",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "7.3.5",
+      "text": "MCPs prepared by SHGs form the basis for determining the purpose.",
+      "summary": "Micro Credit Plans",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "7.3.6",
+      "text": "For loans up to ₹10.00 lakh, no collateral and no margin shall be obtained. No lien on savings accounts.",
+      "summary": "Security and margin requirements",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "7.3.7",
+      "text": "Willful defaulters should not be financed. Non-willful defaulters should not be debarred; genuine defaults should follow restructuring norms.",
+      "summary": "Dealing with defaulters",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "7.3.8",
+      "text": "Loan passbooks in regional languages should be issued and updated with every transaction.",
+      "summary": "Loan passbooks",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "8",
+      "text": "Banks shall prepare a list of defaulting SHGs every month and furnish it to BLBC and DCC meetings.",
+      "summary": "Recovery of loans",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "9",
+      "text": "SLBCs shall constitute a sub-committee on SHG Bank Linkage.",
+      "summary": "Credit target planning and monitoring",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "10",
+      "text": "Banks shall coordinate with SRLMs to utilize Financial Literacy Community Resource Persons (FL-CRPs) for village camps.",
+      "summary": "Financial literacy",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "11",
+      "text": "Banks may share data with DAY-NRLM/SRLMs in mutually agreed formats, ensuring specific and separate customer consent.",
+      "summary": "Data sharing",
+      "type": "Obligation"
+    }
+  ],
+  "obligations": [
+    {
+      "text": "Adhere to 'Panchasutras' (regular meetings, savings, lending, recoveries, and books) for SHG eligibility.",
+      "plain_english": "Follow the five norms of good SHGs",
+      "applicable_to": [
+        "All Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "2.1"
+    },
+    {
+      "text": "Opening of savings accounts for SHG members must not be a prerequisite for credit linkage.",
+      "plain_english": "Do not require savings accounts for credit linkage",
+      "applicable_to": [
+        "All Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Immediate",
+      "source_clause": "7.1"
+    },
+    {
+      "text": "Maintain separate savings and loan accounts for SHGs.",
+      "plain_english": "Keep separate accounts for SHGs",
+      "applicable_to": [
+        "All Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "7.1"
+    },
+    {
+      "text": "Implement dual-authentication facility at BC retail outlets for SHG transactions.",
+      "plain_english": "Use dual-authentication for SHG transactions",
+      "applicable_to": [
+        "All Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Immediate",
+      "source_clause": "7.2"
+    },
+    {
+      "text": "Sanction minimum Cash Credit Limit (CCL) of ₹6 lakh to eligible SHGs for 3 years.",
+      "plain_english": "Sanction minimum CCL of ₹6 lakh",
+      "applicable_to": [
+        "All Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "7.3.3"
+    },
+    {
+      "text": "Provide repeat loans to eligible SHGs.",
+      "plain_english": "Provide repeat loans to eligible SHGs",
+      "applicable_to": [
+        "All Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "7.3.4"
+    },
+    {
+      "text": "Provide minimum OD facility of ₹5000 to every woman SHG member with a PMJDY account.",
+      "plain_english": "Provide minimum OD facility of ₹5000",
+      "applicable_to": [
+        "All Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "7.3.4"
+    },
+    {
+      "text": "Ensure no collateral or margin is obtained for loans to SHGs up to ₹10 lakh.",
+      "plain_english": "Do not take collateral for loans up to ₹10 lakh",
+      "applicable_to": [
+        "All Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Immediate",
+      "source_clause": "7.3.6"
+    },
+    {
+      "text": "Ensure no collateral is obtained for loans between ₹10 lakh and ₹20 lakh; entire loan is CGFMU eligible.",
+      "plain_english": "Do not take collateral for loans between ₹10 lakh and ₹20 lakh",
+      "applicable_to": [
+        "All Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Immediate",
+      "source_clause": "7.3.6"
+    },
+    {
+      "text": "Rejection of SC/ST loan applications under govt programmes must occur at the next higher level.",
+      "plain_english": "Reject SC/ST loan applications at the next higher level",
+      "applicable_to": [
+        "All Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Immediate",
+      "source_clause": "7.3.7"
+    },
+    {
+      "text": "Set up a special cell at Head Office to monitor credit flow to SC/ST beneficiaries.",
+      "plain_english": "Set up a special cell to monitor credit flow",
+      "applicable_to": [
+        "All Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Immediate",
+      "source_clause": "7.3.7"
+    },
+    {
+      "text": "Furnish state-wise consolidated progress reports to RBI quarterly.",
+      "plain_english": "Submit quarterly progress reports to RBI",
+      "applicable_to": [
+        "All Banks"
+      ],
+      "deadline_days": 30,
+      "frequency": "Quarterly",
+      "source_clause": "12"
+    }
+  ],
+  "prohibitions": [
+    {
+      "text": "Willful defaulters should not be financed.",
+      "plain_english": "Do not finance willful defaulters",
+      "applicable_to": [
+        "All Banks"
+      ],
+      "source_clause": "7.3.7"
+    },
+    {
+      "text": "Non-willful defaulters should not be debarred; genuine defaults should follow restructuring norms.",
+      "plain_english": "Do not debar non-willful defaulters",
+      "applicable_to": [
+        "All Banks"
+      ],
+      "source_clause": "7.3.7"
+    }
+  ],
+  "penalties": [],
+  "definitions": [
+    {
+      "term": "Panchasutras",
+      "definition": "The five norms of good SHGs: regular meetings, regular savings, regular internal lending, regular recoveries, and maintenance of proper books of accounts.",
+      "plain_english": "Five norms of good SHGs"
+    },
+    {
+      "term": "Corpus",
+      "definition": "Inclusive of revolving funds, own savings, interest earned from on-lending, and other income sources.",
+      "plain_english": "SHG funds and savings"
+    },
+    {
+      "term": "Micro Credit Plan (MCP)",
+      "definition": "A document prepared by SHG members to prioritize and plan for credit requirements.",
+      "plain_english": "SHG credit plan"
+    },
+    {
+      "term": "Drawing Power (DP)",
+      "definition": "The limit up to which an SHG can withdraw funds from its Cash Credit account.",
+      "plain_english": "SHG cash credit limit"
+    },
+    {
+      "term": "Dual Authentication",
+      "definition": "Transaction authenticated by two members of the SHG through Aadhaar and biometrics.",
+      "plain_english": "Two-factor authentication for SHG transactions"
+    }
+  ],
+  "references": [
+    {
+      "circular_number": "FIDD.GSSD.CO.BC.No.03/09.01.003/2024-25",
+      "relationship": "supersedes"
+    },
+    {
+      "circular_number": "RBI/2012-13/559",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "Master Direction on KYC",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "RBI Master Direction on Treatment of Wilful Defaulters",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "Master Circular on Customer Service in Banks",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "FIDD.GSSD.CO.BC.No.09/09.01.003/2021-22",
+      "relationship": "references"
+    }
+  ]
+}

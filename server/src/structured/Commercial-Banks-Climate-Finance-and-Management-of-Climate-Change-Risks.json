@@ -1,0 +1,368 @@
+{
+  "circular": {
+    "id": "Commercial-Banks-Climate-Finance-and-Management-of-Climate-Change-Risks",
+    "title": "Reserve Bank of India (Commercial Banks - Climate Finance and Management of Climate Change Risks) Directions, 2025",
+    "date": "2025-11-28",
+    "circular_number": "RBI/DOR/2025-26/172",
+    "type": "Master Direction",
+    "topic": "General",
+    "applicable_to": [
+      "Commercial Banks",
+      "Corresponding New Banks",
+      "State Bank of India"
+    ],
+    "status": "Active",
+    "summary": "The Reserve Bank of India has issued directions for commercial banks to manage climate-related financial risks. The goal is to encourage the flow of credit to sustainable activities while preventing greenwashing. Banks must implement Board-approved policies and financing frameworks, ensuring that proceeds from green deposits are allocated to specific eligible categories."
+  },
+  "clauses": [
+    {
+      "clause_number": "1",
+      "text": "These Directions shall be called the Reserve Bank of India (Commercial Banks - Climate Finance and Management of Climate Change Risks) Directions, 2025.",
+      "summary": "Short title of the directions",
+      "type": "Definition"
+    },
+    {
+      "clause_number": "2",
+      "text": "These Directions shall come into force with immediate effect.",
+      "summary": "Commencement of the directions",
+      "type": "Procedural"
+    },
+    {
+      "clause_number": "3",
+      "text": "Applicable to Commercial Banks, including SBI and corresponding new banks, but excluding SFBs, Payment Banks, and Local Area Banks.",
+      "summary": "Applicability of the directions",
+      "type": "Definition"
+    },
+    {
+      "clause_number": "4",
+      "text": "Defines 'green activities/projects', 'green deposit', 'green finance', and 'greenwashing'.",
+      "summary": "Definitions of key terms",
+      "type": "Definition"
+    },
+    {
+      "clause_number": "6",
+      "text": "A bank desirous of raising green deposits shall put in place comprehensive Board-approved policies on Green Deposits and Financing Framework.",
+      "summary": "Obligation to have Board-approved policies",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "7",
+      "text": "The Board shall be responsible for reviewing the bank’s green deposit initiatives through a review report.",
+      "summary": "Obligation to review green deposit initiatives",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "8",
+      "text": "The Board-approved policy shall lay down all aspects of issuance and allocation. A copy must be available on the bank's website.",
+      "summary": "Obligation to have a policy on green deposits",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "9",
+      "text": "Green deposits shall only be denominated in Indian Rupees.",
+      "summary": "Obligation to denominate green deposits in INR",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "10",
+      "text": "Banks are not permitted to offer differential rates of interest on green deposits. Interest must be paid as per agreed terms irrespective of the allocation/utilisation of proceeds.",
+      "summary": "Obligation to not offer differential interest rates",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "11",
+      "text": "The Board-approved Financing Framework (FF) must cover eligible green activities, project evaluation/selection processes, allocation reporting, and temporary allocation particulars.",
+      "summary": "Obligation to have a Financing Framework",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "12",
+      "text": "A bank shall arrange to carry out an external review of their FF.",
+      "summary": "Obligation to have an external review of the FF",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "13",
+      "text": "Before implementation, a copy of the FF and the external reviewer's opinion must be on the bank's website.",
+      "summary": "Obligation to publish the FF and external review",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "14",
+      "text": "Proceeds must be allocated based on the official Indian green taxonomy (or the interim list provided in the directions).",
+      "summary": "Obligation to allocate proceeds to eligible green activities",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "15",
+      "text": "Fund allocation shall be subject to an annual independent third-party verification/assurance.",
+      "summary": "Obligation to have annual third-party verification",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "17",
+      "text": "A bank shall assess annually the impact of green finance activities through an Impact Assessment Report with the assistance of external firms.",
+      "summary": "Obligation to have an annual Impact Assessment Report",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "18",
+      "text": "Banks shall place Third-Party Verification and Impact Assessment Reports on their websites.",
+      "summary": "Obligation to publish reports on the website",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "19",
+      "text": "A review report must be placed before the Board within three months of the end of the financial year, covering amounts raised, lists of projects, and verification/impact findings.",
+      "summary": "Obligation to submit a review report to the Board",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "20",
+      "text": "Annual financial statement disclosures must follow the RBI (Commercial Banks - Financial Statements: Presentation and Disclosures) Directions, 2025.",
+      "summary": "Obligation to follow financial statement disclosure directions",
+      "type": "Obligation"
+    }
+  ],
+  "obligations": [
+    {
+      "text": "Implement Board-approved policies on Green Deposits and a Financing Framework.",
+      "plain_english": "Banks must have Board-approved policies for green deposits and financing framework.",
+      "applicable_to": [
+        "Commercial Banks",
+        "Corresponding New Banks",
+        "State Bank of India"
+      ],
+      "deadline_days": null,
+      "frequency": "One-time",
+      "source_clause": "6"
+    },
+    {
+      "text": "Denominate green deposits exclusively in Indian Rupees (INR).",
+      "plain_english": "Banks must only offer green deposits in Indian Rupees.",
+      "applicable_to": [
+        "Commercial Banks",
+        "Corresponding New Banks",
+        "State Bank of India"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "9"
+    },
+    {
+      "text": "Ensure green deposit interest rates and tenors comply with general deposit rules without offering differential rates.",
+      "plain_english": "Banks must not offer different interest rates for green deposits.",
+      "applicable_to": [
+        "Commercial Banks",
+        "Corresponding New Banks",
+        "State Bank of India"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "10"
+    },
+    {
+      "text": "Conduct an external review of the Financing Framework (FF) and publish it on the bank's website.",
+      "plain_english": "Banks must have an external review of their financing framework and publish it on their website.",
+      "applicable_to": [
+        "Commercial Banks",
+        "Corresponding New Banks",
+        "State Bank of India"
+      ],
+      "deadline_days": null,
+      "frequency": "One-time",
+      "source_clause": "12"
+    },
+    {
+      "text": "Allocate proceeds only to eligible green activities and exclude prohibited sectors.",
+      "plain_english": "Banks must only use green deposit proceeds for eligible green activities.",
+      "applicable_to": [
+        "Commercial Banks",
+        "Corresponding New Banks",
+        "State Bank of India"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "14"
+    },
+    {
+      "text": "Park unallocated green proceeds temporarily only in Level 1 High Quality Liquid Assets (HQLA) for a maximum of one year.",
+      "plain_english": "Banks must temporarily park unallocated green deposit proceeds in high-quality liquid assets.",
+      "applicable_to": [
+        "Commercial Banks",
+        "Corresponding New Banks",
+        "State Bank of India"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "14"
+    },
+    {
+      "text": "Undertake annual independent third-party verification of fund allocation.",
+      "plain_english": "Banks must have an annual independent verification of their green deposit fund allocation.",
+      "applicable_to": [
+        "Commercial Banks",
+        "Corresponding New Banks",
+        "State Bank of India"
+      ],
+      "deadline_days": null,
+      "frequency": "Annual",
+      "source_clause": "15"
+    },
+    {
+      "text": "Assess and publish an annual Impact Assessment Report for financed green projects.",
+      "plain_english": "Banks must publish an annual report on the impact of their green finance activities.",
+      "applicable_to": [
+        "Commercial Banks",
+        "Corresponding New Banks",
+        "State Bank of India"
+      ],
+      "deadline_days": null,
+      "frequency": "Annual",
+      "source_clause": "17"
+    },
+    {
+      "text": "Submit a comprehensive review report to the Board of Directors.",
+      "plain_english": "Banks must submit a review report to their Board of Directors.",
+      "applicable_to": [
+        "Commercial Banks",
+        "Corresponding New Banks",
+        "State Bank of India"
+      ],
+      "deadline_days": "90",
+      "frequency": "Annual",
+      "source_clause": "19"
+    }
+  ],
+  "prohibitions": [
+    {
+      "text": "Banks are not permitted to offer differential rates of interest on green deposits.",
+      "plain_english": "Banks cannot offer different interest rates for green deposits.",
+      "applicable_to": [
+        "Commercial Banks",
+        "Corresponding New Banks",
+        "State Bank of India"
+      ],
+      "source_clause": "10"
+    },
+    {
+      "text": "Exclusions: Fossil fuel extraction, production, or distribution.",
+      "plain_english": "Banks cannot use green deposit proceeds for fossil fuel activities.",
+      "applicable_to": [
+        "Commercial Banks",
+        "Corresponding New Banks",
+        "State Bank of India"
+      ],
+      "source_clause": "14"
+    },
+    {
+      "text": "Exclusions: Nuclear power generation.",
+      "plain_english": "Banks cannot use green deposit proceeds for nuclear power generation.",
+      "applicable_to": [
+        "Commercial Banks",
+        "Corresponding New Banks",
+        "State Bank of India"
+      ],
+      "source_clause": "14"
+    },
+    {
+      "text": "Exclusions: Direct waste incineration.",
+      "plain_english": "Banks cannot use green deposit proceeds for direct waste incineration.",
+      "applicable_to": [
+        "Commercial Banks",
+        "Corresponding New Banks",
+        "State Bank of India"
+      ],
+      "source_clause": "14"
+    },
+    {
+      "text": "Exclusions: Alcohol, weapons, tobacco, gaming, or palm oil industries.",
+      "plain_english": "Banks cannot use green deposit proceeds for certain industries.",
+      "applicable_to": [
+        "Commercial Banks",
+        "Corresponding New Banks",
+        "State Bank of India"
+      ],
+      "source_clause": "14"
+    },
+    {
+      "text": "Exclusions: Biomass using feedstock from protected areas.",
+      "plain_english": "Banks cannot use green deposit proceeds for biomass from protected areas.",
+      "applicable_to": [
+        "Commercial Banks",
+        "Corresponding New Banks",
+        "State Bank of India"
+      ],
+      "source_clause": "14"
+    },
+    {
+      "text": "Exclusions: Landfill projects.",
+      "plain_english": "Banks cannot use green deposit proceeds for landfill projects.",
+      "applicable_to": [
+        "Commercial Banks",
+        "Corresponding New Banks",
+        "State Bank of India"
+      ],
+      "source_clause": "14"
+    },
+    {
+      "text": "Exclusions: Hydropower plants larger than 25 MW.",
+      "plain_english": "Banks cannot use green deposit proceeds for large hydropower plants.",
+      "applicable_to": [
+        "Commercial Banks",
+        "Corresponding New Banks",
+        "State Bank of India"
+      ],
+      "source_clause": "14"
+    }
+  ],
+  "penalties": [],
+  "definitions": [
+    {
+      "term": "green activities / projects",
+      "definition": "Activities/projects meeting requirements prescribed in paragraph 14.",
+      "plain_english": "Eligible green activities as defined by the RBI"
+    },
+    {
+      "term": "green deposit",
+      "definition": "An interest-bearing deposit for a fixed period with proceeds earmarked for green finance.",
+      "plain_english": "A deposit with proceeds used for green finance"
+    },
+    {
+      "term": "green finance",
+      "definition": "Lending to or investing in green activities/projects that contribute to climate risk mitigation, adaptation, resilience, biodiversity, or nature-based solutions.",
+      "plain_english": "Finance used for green activities"
+    },
+    {
+      "term": "greenwashing",
+      "definition": "The practice of marketing products/services as green when they do not meet the required criteria.",
+      "plain_english": "Misleading marketing of non-green products as green"
+    }
+  ],
+  "references": [
+    {
+      "circular_number": "DOR.RRC.REC.302/33-01-010/2025-26",
+      "relationship": "supersedes"
+    },
+    {
+      "circular_number": "RBI (Commercial Banks - Interest Rate on Deposits) Directions, 2025",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "RBI (Commercial Banks – Credit Risk Management) Directions, 2025",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "Master Directions - Reserve Bank of India (Priority Sector Lending – Targets and Classification) Directions, 2025",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "RBI (Commercial Banks - Asset Liability Management) Directions, 2025",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "RBI (Commercial Banks - Financial Statements: Presentation and Disclosures) Directions, 2025",
+      "relationship": "references"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "circular": {
+    "id": "Commercial-Banks-Credit-Cards-and-Debit-Cards-Issuance-and-Conduct",
+    "title": "Reserve Bank of India (Commercial Banks – Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025",
+    "date": "2025-11-28",
+    "circular_number": "RBI/DOR/2025-26/155",
+    "type": "Master Direction",
+    "topic": "Payments",
+    "applicable_to": [
+      "Commercial Banks",
+      "Small Finance Banks",
+      "Payment Banks",
+      "Local Area Banks"
+    ],
+    "status": "Active",
+    "summary": "This Master Direction provides a comprehensive regulatory framework for the issuance and conduct of credit, debit, and co-branded cards by commercial banks in India. It establishes eligibility criteria, mandates Board-approved policies, and enforces strict consumer protection measures. Key provisions include the prohibition of unsolicited cards, mandatory Key Fact Statements, standardized billing cycles, and rigorous grievance redressal mechanisms, including penalties for delays in account closure. The Direction also outlines guidelines for debit card issuance, co-branding arrangements, and general conditions for credit and debit cards."
+  },
+  "clauses": [
+    {
+      "clause_number": "1. Short Title and Commencement",
+      "text": "These Directions shall be called the Reserve Bank of India (Commercial Banks - Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025.",
+      "summary": "Title of the Directions",
+      "type": "Definition"
+    },
+    {
+      "clause_number": "3. Applicability",
+      "text": "These Directions apply to all Commercial Banks, including Small Finance Banks, Payment Banks, and Local Area Banks.",
+      "summary": "Applicability of the Directions",
+      "type": "Definition"
+    },
+    {
+      "clause_number": "5. Definitions",
+      "text": "Definitions of various terms used in the Directions",
+      "summary": "Definitions",
+      "type": "Definition"
+    },
+    {
+      "clause_number": "7. Eligibility",
+      "text": "Banks with a net worth of ₹100 crore and above are permitted to undertake credit card business independently or via tie-ups.",
+      "summary": "Eligibility criteria for credit card business",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "8. Board Approved Policy and Procedures",
+      "text": "Each card-issuer must have a well-documented Board-approved policy available on their website covering interest ceilings, default reporting, co-branding, and grievance redressal.",
+      "summary": "Board-approved policy requirement",
+      "type": "Obligation"
+    }
+  ],
+  "obligations": [
+    {
+      "text": "Maintain a minimum net worth of ₹100 crore to undertake credit card business.",
+      "plain_english": "Banks must have a minimum net worth of ₹100 crore to issue credit cards.",
+      "applicable_to": [
+        "Card-issuing Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "7. Eligibility"
+    },
+    {
+      "text": "Provide a one-page Key Fact Statement (KFS) containing interest rates and charges with applications.",
+      "plain_english": "Banks must provide a one-page document with key facts about the credit card, including interest rates and charges, when a customer applies for a credit card.",
+      "applicable_to": [
+        "Card-issuers"
+      ],
+      "deadline_days": null,
+      "frequency": "One-time",
+      "source_clause": "11. Customer Acquisition"
+    }
+  ],
+  "prohibitions": [
+    {
+      "text": "Issuing unsolicited cards is strictly prohibited.",
+      "plain_english": "Banks cannot issue credit cards to customers without their request or application.",
+      "applicable_to": [
+        "Card-issuers"
+      ],
+      "source_clause": "11. Customer Acquisition"
+    }
+  ],
+  "penalties": [
+    {
+      "amount": "₹500 per day of delay",
+      "condition": "Failure to close a credit card account within 7 working days",
+      "section": "19. Closure of Credit Card"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "Add-on Credit Card",
+      "definition": "A supplementary card issued to a relative of the primary cardholder within the same credit limit.",
+      "plain_english": "An additional credit card issued to a family member of the primary cardholder, with the same credit limit."
+    },
+    {
+      "term": "Annual Percentage Rate (APR)",
+      "definition": "The total annual cost of credit, including interest and all other charges.",
+      "plain_english": "The total cost of borrowing on a credit card, including interest and fees, over a year."
+    }
+  ],
+  "references": [
+    {
+      "circular_number": "RBI/DOR/2025-26/155",
+      "relationship": "supersedes"
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "circular": {
+    "id": "RBI/2025-26/14",
+    "title": "Master Circular - Income Recognition, Asset Classification, Provisioning and Other Related Matters - UCBs",
+    "date": "2025-04-01",
+    "circular_number": "RBI/2025-26/14",
+    "type": "Master Direction",
+    "topic": "Asset Classification",
+    "applicable_to": [
+      "Urban Co-operative Banks"
+    ],
+    "status": "Active",
+    "summary": "This Master Circular consolidates the prudential framework for Urban Co-operative Banks concerning the identification and management of Non-Performing Assets. It mandates an objective and uniform system for income recognition, asset classification, and provisioning based on record of recovery. Key features include the definition of 'out of order' for overdrafts, specific timelines for classifying incipient stress through Special Mention Accounts, and staggered provisioning requirements for standard assets."
+  },
+  "clauses": [
+    {
+      "clause_number": "1.1",
+      "text": "Reserve Bank has introduced prudential norms for income recognition, asset classification and provisioning for the advances portfolio.",
+      "summary": "Introduction of prudential norms",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "1.2",
+      "text": "Income recognition should be objective and based on record of recovery.",
+      "summary": "Objective income recognition",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "1.3",
+      "text": "The requirements of the State Co-operative Societies Acts and/or rules must be followed if they are more stringent than these norms.",
+      "summary": "Compliance with State Co-operative Societies Acts",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "2.1.1",
+      "text": "A loan or advance is an NPA where: (i) Interest and/or installment of principal remain overdue for more than 90 days in respect of a Term Loan. (ii) The account remains 'out of order' for 90 days in respect of an Overdraft/Cash Credit. (iii) The bill remains overdue for more than 90 days in the case of bills purchased and discounted. (iv) Agricultural advances: Overdue for two crop seasons (short duration) or one crop season (long duration). (v) Any amount to be received remains overdue for more than 90 days in respect of other accounts.",
+      "summary": "Definition of NPA",
+      "type": "Definition"
+    },
+    {
+      "clause_number": "2.1.2",
+      "text": "A credit card account is treated as NPA if the minimum amount due is not paid fully within 90 days from the payment due date.",
+      "summary": "Credit card account NPA",
+      "type": "Definition"
+    },
+    {
+      "clause_number": "2.1.4",
+      "text": "Identification of NPAs must be done on an on-going basis and provisions made at the end of each calendar quarter.",
+      "summary": "Ongoing NPA identification",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "2.1.6",
+      "text": "All UCBs shall classify loans as SMA: - SMA-0: 0-30 days overdue. - SMA-1: 31-60 days overdue. - SMA-2: 61-90 days overdue.",
+      "summary": "SMA classification",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "2.2.2",
+      "text": "Classification of NPAs must be done borrower-wise and not facility-wise.",
+      "summary": "Borrower-wise NPA classification",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "2.2.5",
+      "text": "Credit facilities backed by Central Government guarantees though overdue should not be treated as NPA for provisioning (except for income recognition), but State Government guarantees attract normal norms if overdue >90 days.",
+      "summary": "Government guarantee NPA treatment",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "2.2.7.2",
+      "text": "Accounts classified as 'standard assets' should be immediately re-classified as 'sub-standard assets' upon restructuring.",
+      "summary": "Restructuring asset classification",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "2.2.7.11",
+      "text": "Banks must provide for the diminution in the fair value of restructured advances.",
+      "summary": "Restructuring provisioning",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "2.2.7.20",
+      "text": "Total provisions required (normal + diminution) are capped at 100% of the outstanding debt.",
+      "summary": "Restructuring provisioning cap",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "3.1.1",
+      "text": "Banks should classify assets into: Standard, Sub-standard, Doubtful, and Loss.",
+      "summary": "Asset classification",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "3.3.1",
+      "text": "Accounts with potential threats to recovery (erosion in security value >50%) should be straightaway classified as Doubtful or Loss assets.",
+      "summary": "Doubtful or Loss asset classification",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "4.1.1",
+      "text": "Income from NPA is not recognized on accrual basis but booked only when actually received.",
+      "summary": "NPA income recognition",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "4.2.1",
+      "text": "If an advance becomes NPA, interest accrued and credited to income account in the current and past periods, if uncollected, must be reversed.",
+      "summary": "NPA interest reversal",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "5.1.2",
+      "text": "Provisioning requirements: (i) Loss Assets: 100% should be provided for or written off. (ii) Doubtful Assets: 100% for the unsecured portion. For the secured portion: - Up to 1 year: 20% - 1 to 3 years: 30% - More than 3 years: 100% (effective April 1, 2010). (iii) Sub-standard Assets: General provision of 10% on total outstanding. (iv) Standard Assets: - Agriculture/SME: 0.25% - CRE: 1.00% - CRE-RH: 0.75% - Others: 0.40%",
+      "summary": "Provisioning requirements",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "5.3.1",
+      "text": "The entire amount due to the bank must be provided for over a period not exceeding four quarters commencing with the quarter in which the fraud was detected.",
+      "summary": "Fraud provisioning",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "5.3.2",
+      "text": "If there is a delay in reporting the fraud to RBI, the entire provisioning is required to be made at once.",
+      "summary": "Fraud provisioning delay",
+      "type": "Obligation"
+    }
+  ],
+  "obligations": [
+    {
+      "text": "Classify loans as NPA if interest or principal installment remains overdue for >90 days.",
+      "plain_english": "Classify loans as non-performing if payments are overdue for more than 90 days.",
+      "applicable_to": [
+        "Urban Co-operative Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "2.1.1"
+    },
+    {
+      "text": "Implement system-based asset classification in CBS.",
+      "plain_english": "Use a system-based approach to classify assets in the Core Banking System.",
+      "applicable_to": [
+        "Urban Co-operative Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "2.1.4"
+    },
+    {
+      "text": "Classify stressed accounts into SMA-0 (0-30 days), SMA-1 (31-60 days), and SMA-2 (61-90 days).",
+      "plain_english": "Classify stressed accounts into Special Mention Accounts based on the number of days overdue.",
+      "applicable_to": [
+        "Urban Co-operative Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "2.1.6"
+    },
+    {
+      "text": "Reverse interest/fees accrued but not realized when an account turns NPA.",
+      "plain_english": "Reverse any interest or fees that have been accrued but not realized when an account becomes non-performing.",
+      "applicable_to": [
+        "Urban Co-operative Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "One-time",
+      "source_clause": "4.2.1"
+    },
+    {
+      "text": "Maintain standard asset provisions: 0.25% (Agri/SME), 1% (CRE), 0.75% (CRE-RH), and 0.40% (Others).",
+      "plain_english": "Maintain provisions for standard assets based on the type of asset.",
+      "applicable_to": [
+        "Urban Co-operative Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Quarterly",
+      "source_clause": "5.1.2"
+    },
+    {
+      "text": "Charge 10% general provision on Sub-standard assets and 20%-100% on Doubtful assets.",
+      "plain_english": "Charge provisions on sub-standard and doubtful assets based on their classification.",
+      "applicable_to": [
+        "Urban Co-operative Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Quarterly",
+      "source_clause": "5.1.2"
+    },
+    {
+      "text": "Provide for 100% of the entire amount due for fraud accounts over max 4 quarters.",
+      "plain_english": "Provide for the entire amount due for fraud accounts over a maximum of 4 quarters.",
+      "applicable_to": [
+        "Urban Co-operative Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Quarterly",
+      "source_clause": "5.3.1"
+    },
+    {
+      "text": "Report annual NPA figures to the Regional Office of the RBI.",
+      "plain_english": "Report annual non-performing asset figures to the Regional Office of the Reserve Bank of India.",
+      "applicable_to": [
+        "Urban Co-operative Banks"
+      ],
+      "deadline_days": 60,
+      "frequency": "Annual",
+      "source_clause": "2.2.2"
+    },
+    {
+      "text": "Submit CRILC reports for borrowers with aggregate exposure ≥₹5 crore.",
+      "plain_english": "Submit Credit Repository of Information on Large Credits reports for borrowers with aggregate exposure of ₹5 crore or more.",
+      "applicable_to": [
+        "Urban Co-operative Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Quarterly",
+      "source_clause": "2.1.6"
+    }
+  ],
+  "prohibitions": [
+    {
+      "text": "Do not treat credit facilities backed by Central Government guarantees as NPA for provisioning (except for income recognition).",
+      "plain_english": "Do not treat credit facilities backed by Central Government guarantees as non-performing for provisioning purposes, except for income recognition.",
+      "applicable_to": [
+        "Urban Co-operative Banks"
+      ],
+      "source_clause": "2.2.5"
+    },
+    {
+      "text": "Do not delay in reporting fraud to RBI.",
+      "plain_english": "Do not delay in reporting fraud to the Reserve Bank of India.",
+      "applicable_to": [
+        "Urban Co-operative Banks"
+      ],
+      "source_clause": "5.3.2"
+    }
+  ],
+  "penalties": [
+    {
+      "amount": "Deterrent action/Monetary penalties",
+      "condition": "Non-compliance with system-based asset classification in CBS.",
+      "section": "2.1.4"
+    },
+    {
+      "amount": "Penal action under BR Act, 1949",
+      "condition": "Non-submission of CRILC reports for borrowers with aggregate exposure ≥₹5 crore.",
+      "section": "2.1.6"
+    },
+    {
+      "amount": "Supervisory action",
+      "condition": "Non-provisioning for fraud accounts over max 4 quarters.",
+      "section": "5.3.1"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "Non-Performing Asset (NPA)",
+      "definition": "A loan or an advance where interest and/or installment of principal remain overdue for a period of more than 90 days.",
+      "plain_english": "A loan or advance that is overdue for more than 90 days."
+    },
+    {
+      "term": "Out of Order",
+      "definition": "An OD/CC account where the balance remains continuously in excess of the limit for 90 days, or where there are no/insufficient credits to cover interest for 90 days.",
+      "plain_english": "An overdraft or cash credit account that is overdue for 90 days."
+    },
+    {
+      "term": "Overdue",
+      "definition": "Any amount due to the bank under any credit facility if not paid by the due date.",
+      "plain_english": "An amount that is due but not paid by the due date."
+    },
+    {
+      "term": "Standard Asset",
+      "definition": "An asset which does not disclose any problems and does not carry more than normal risk.",
+      "plain_english": "An asset that is not problematic and carries normal risk."
+    },
+    {
+      "term": "Sub-standard Asset",
+      "definition": "An asset which has remained NPA for a period less than or equal to 12 months.",
+      "plain_english": "An asset that has been non-performing for less than or equal to 12 months."
+    },
+    {
+      "term": "Doubtful Asset",
+      "definition": "An asset which has remained in the sub-standard category for a period of 12 months.",
+      "plain_english": "An asset that has been sub-standard for 12 months."
+    },
+    {
+      "term": "Loss Asset",
+      "definition": "An asset where loss has been identified by the bank/auditors/RBI but the amount has not been written off.",
+      "plain_english": "An asset where a loss has been identified but not written off."
+    },
+    {
+      "term": "Specified Period (Restructuring)",
+      "definition": "A period of one year from the date when the first payment of interest or installment of principal falls due under the terms of the restructuring package.",
+      "plain_english": "A one-year period from the first payment due date under a restructuring package."
+    }
+  ],
+  "references": [
+    {
+      "circular_number": "DOR.CAP.REC.No.27/09.18.201/2024-25",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "Master Directions on Fraud Risk Management",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "DOR.REG.No.84/07.01.000/2022-23",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "Transfer of Loan Exposures Directions, 2021",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "Banking Regulation Act, 1949",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "DoS.CO.PPG.BC.1/11.01.005/2020-21",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "DoS.OSMOS.No.4633/33.05.018/2019-20",
+      "relationship": "references"
+    }
+  ]
+}

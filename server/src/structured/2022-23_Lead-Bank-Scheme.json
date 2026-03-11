@@ -1,0 +1,307 @@
+{
+  "circular": {
+    "id": "2025-26/04",
+    "title": "Master Circular – Lead Bank Scheme",
+    "date": "2025-04-01",
+    "circular_number": "RBI/2025-26/04, FIDD.CO.LBS.BC.No.03/02.01.001/2025-26",
+    "type": "Master Direction",
+    "topic": "PSL",
+    "applicable_to": [
+      "All Scheduled Commercial Banks",
+      "Small Finance Banks",
+      "SLBC/UTLBC Convenor Banks",
+      "Lead Banks"
+    ],
+    "status": "Active",
+    "summary": "The Lead Bank Scheme is a landmark initiative designed to coordinate the activities of banks and other developmental agencies to enhance the flow of bank finance to priority sectors and promote rural development. The scheme ensures decentralized credit planning via Potential Linked Credit Plans and Annual Credit Plans. Key focus areas include achieving 100% financial inclusion, maintaining healthy Credit-Deposit ratios, facilitating Direct Benefit Transfers, and deepening the digital payments ecosystem. The scheme is administered through a tiered structure of committees, including the Block Level Bankers’ Committee, District Consultative Committee, District Level Review Committee, and State Level Bankers’ Committee."
+  },
+  "clauses": [
+    {
+      "clause_number": "1",
+      "text": "The Lead Bank Scheme (LBS) is a landmark initiative designed to coordinate the activities of banks and other developmental agencies to enhance the flow of bank finance to priority sectors and promote rural development.",
+      "summary": "Introduction to the Lead Bank Scheme",
+      "type": "Introduction"
+    },
+    {
+      "clause_number": "2.1",
+      "text": "BLBC meetings are held at quarterly intervals. All branch managers must attend and enrich discussions.",
+      "summary": "BLBC meeting frequency and attendance",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "2.2.1",
+      "text": "The District Collector is the Chairman. DCC facilitates coordination in implementing developmental activities.",
+      "summary": "DCC chairman and purpose",
+      "type": "Introduction"
+    },
+    {
+      "clause_number": "2.2.2",
+      "text": "DCC meetings should be convened by the Lead Banks at quarterly intervals.",
+      "summary": "DCC meeting frequency",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "2.2.4",
+      "text": "The office of LDM should be sufficiently strengthened with infrastructural support (office space, technical infrastructure, and a dedicated vehicle).",
+      "summary": "LDM office infrastructure",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "2.2.6",
+      "text": "DLRC meetings should be convened by the Lead Banks at least once in a quarter. Public representatives (MPs/MLAs/Zilla Parishad Chiefs) shall invariably be invited.",
+      "summary": "DLRC meeting frequency and attendance",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "2.2.7",
+      "text": "Lead Banks must prepare an Annual Schedule of DCC and DLRC meetings on a calendar year basis and circulate it at the beginning of each year. DCC and DLRC meetings must not be held simultaneously.",
+      "summary": "Annual schedule of DCC and DLRC meetings",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "2.3.1",
+      "text": "SLBC is an apex inter-institutional forum chaired by the Chairman/MD of the Convenor Bank. Meetings are held on a quarterly basis.",
+      "summary": "SLBC meeting frequency and chairman",
+      "type": "Introduction"
+    },
+    {
+      "clause_number": "2.3.2",
+      "text": "Meetings are co-chaired by the Additional Chief Secretary or Development Commissioner of the State.",
+      "summary": "SLBC co-chairman",
+      "type": "Introduction"
+    },
+    {
+      "clause_number": "2.3.4",
+      "text": "SLBC Convenor Banks must prepare a yearly calendar of programmes by 15th January every year. Meeting minutes must be forwarded to stakeholders within 10 days of the meeting.",
+      "summary": "SLBC yearly calendar and meeting minutes",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "3.2",
+      "text": "NABARD to ensure PLPs are focused and implementable. PLPs must emphasize sustainable agricultural practices (reducing carbon footprint, water efficiency, etc.).",
+      "summary": "PLP focus and implementation",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "3.3",
+      "text": "Data on ACP is reviewed at Block (BLBC), District (DCC/DLRC), and State (SLBC) levels. Quarterly statements on progress under ACP must be prepared in the single format prescribed in Annex IV.",
+      "summary": "ACP review and reporting",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "3.4",
+      "text": "Banks must develop a standardized system to download LBS data directly from CBS/MIS to Excel to obviate manual data entry.",
+      "summary": "LBS data download and reporting",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "5",
+      "text": "Lead Banks/SLBCs must focus on achieving 100% financial inclusion. Banks should consider opening CBS-enabled banking outlets in unbanked rural centres (URCs).",
+      "summary": "Financial inclusion and banking outlets",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "5.3",
+      "text": "Banks must open at least 25% of total banking outlets in URCs (Tier 5 and 6 centres).",
+      "summary": "Banking outlets in URCs",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "6.1",
+      "text": "Banks are advised to achieve a CD Ratio of 60% in rural and semi-urban branches separately on an All-India basis.",
+      "summary": "CD Ratio target",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "6.2",
+      "text": "In districts with a CD Ratio < 40%, Special Sub-Committees (SSCs) of the DCC must be set up to draw up Monitorable Action Plans (MAPs).",
+      "summary": "SSC setup and MAPs",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "7",
+      "text": "Banks must complete Aadhaar seeding in all bank accounts and closely monitor progress. A system must be in place to provide beneficiaries with seeding acknowledgments and confirmations.",
+      "summary": "Aadhaar seeding and monitoring",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "8.1",
+      "text": "Banks must dispense with obtaining a ‘No Due Certificate’ from individual borrowers (including SHGs/JLGs) in rural and semi-urban areas for all types of loans.",
+      "summary": "No Due Certificate dispensation",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "10",
+      "text": "SLBCs/UTLBCs must identify one district on a pilot basis to make it 100% digitally enabled, then devise a roadmap to cover all districts.",
+      "summary": "Digital payments ecosystem expansion",
+      "type": "Obligation"
+    }
+  ],
+  "obligations": [
+    {
+      "text": "Prepare an Annual Schedule of DCC and DLRC meetings and circulate to members.",
+      "plain_english": "Create a yearly schedule for DCC and DLRC meetings and share with members.",
+      "applicable_to": [
+        "Lead Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "One-time",
+      "source_clause": "2.2.7"
+    },
+    {
+      "text": "Convene BLBC, DCC, and DLRC meetings at quarterly intervals.",
+      "plain_english": "Hold BLBC, DCC, and DLRC meetings every quarter.",
+      "applicable_to": [
+        "Lead Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "2.1"
+    },
+    {
+      "text": "Upload block-wise ACP targets of the district on the SLBC portal.",
+      "plain_english": "Upload ACP targets for each block on the SLBC portal.",
+      "applicable_to": [
+        "Lead District Managers (LDMs)"
+      ],
+      "deadline_days": null,
+      "frequency": "Annual",
+      "source_clause": "3.2"
+    },
+    {
+      "text": "Generate LBS-related data reports from CBS/MIS and provide to state-level controlling offices.",
+      "plain_english": "Create LBS data reports from CBS/MIS and share with state-level controlling offices.",
+      "applicable_to": [
+        "Banks' Head Offices"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "3.4"
+    },
+    {
+      "text": "Upload district/block data in the SLBC portal.",
+      "plain_english": "Upload district and block data on the SLBC portal.",
+      "applicable_to": [
+        "Banks' state-level Controlling Offices"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "3.4"
+    },
+    {
+      "text": "Achieve a CD Ratio of 60% for rural and semi-urban branches separately on an All-India basis.",
+      "plain_english": "Maintain a CD Ratio of 60% for rural and semi-urban branches across India.",
+      "applicable_to": [
+        "All SCBs"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "6.1"
+    },
+    {
+      "text": "Set up Special Sub-Committees (SSCs) in districts where the CD Ratio is below 40%.",
+      "plain_english": "Establish SSCs in districts with a CD Ratio below 40%.",
+      "applicable_to": [
+        "Lead Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "One-time",
+      "source_clause": "6.2"
+    },
+    {
+      "text": "Dispense with 'No Due Certificate' for individual borrowers in rural and semi-urban areas for all types of loans.",
+      "plain_english": "Stop requiring 'No Due Certificate' for individual borrowers in rural and semi-urban areas.",
+      "applicable_to": [
+        "All Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "One-time",
+      "source_clause": "8.1"
+    },
+    {
+      "text": "Ensure 25% of total banking outlets opened in a year are in unbanked rural centres (URCs).",
+      "plain_english": "Ensure 25% of new banking outlets are in unbanked rural areas.",
+      "applicable_to": [
+        "All Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Annual",
+      "source_clause": "5.3"
+    },
+    {
+      "text": "Maintain standardized SLBC websites updated with minimum prescribed information.",
+      "plain_english": "Keep SLBC websites updated with required information.",
+      "applicable_to": [
+        "SLBC Convenor Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "2.3.4"
+    }
+  ],
+  "prohibitions": [
+    {
+      "text": "No Due Certificate should not be obtained from individual borrowers in rural and semi-urban areas for all types of loans.",
+      "plain_english": "Do not require 'No Due Certificate' for individual borrowers in rural and semi-urban areas.",
+      "applicable_to": [
+        "All Banks"
+      ],
+      "source_clause": "8.1"
+    }
+  ],
+  "penalties": [],
+  "definitions": [
+    {
+      "term": "Lead Bank",
+      "definition": "A bank designated by the RBI to coordinate banking and credit activities in a specific district.",
+      "plain_english": "A bank responsible for coordinating banking activities in a district."
+    },
+    {
+      "term": "Lead District Manager (LDM)",
+      "definition": "The officer designated by the Lead Bank to manage LBS activities at the district level.",
+      "plain_english": "The officer in charge of LBS activities in a district."
+    },
+    {
+      "term": "Service Area Approach (SAA)",
+      "definition": "A scheme where a specific area is assigned to a bank branch to increase productive lending.",
+      "plain_english": "A scheme where a bank branch is assigned a specific area to increase lending."
+    },
+    {
+      "term": "Panchayat Samiti",
+      "definition": "A rural local government body at the intermediate (block) level.",
+      "plain_english": "A rural local government body at the block level."
+    },
+    {
+      "term": "Unbanked Rural Centre (URC)",
+      "definition": "A rural centre (Tier 5 or 6) that does not have a CBS-enabled banking outlet.",
+      "plain_english": "A rural area without a CBS-enabled banking outlet."
+    },
+    {
+      "term": "Credit-Deposit (CD) Ratio",
+      "definition": "The ratio of how much a bank lends out of the deposits it has mobilized.",
+      "plain_english": "The ratio of lending to deposits."
+    }
+  ],
+  "references": [
+    {
+      "circular_number": "Master Direction - Know Your Customer (KYC) Direction, 2016",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "Master Direction – Reserve Bank of India (Relief Measures by Banks in Areas affected by Natural Calamities) Directions 2018",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "Master Direction - Lending to Micro, Small & Medium Enterprises (MSME) Sector",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "Master Directions - Priority Sector Lending (PSL) – Targets and Classification",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "Rationalisation of Branch Authorisation Policy (May 18, 2017)",
+      "relationship": "references"
+    }
+  ]
+}

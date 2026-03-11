@@ -1,0 +1,380 @@
+{
+  "circular": {
+    "id": "2025-26/11",
+    "title": "Master Circular - Guarantees, Co-acceptances & Letters of Credit - UCBs",
+    "date": "2025-04-01",
+    "circular_number": "RBI/2025-26/11",
+    "type": "Master Direction",
+    "topic": "Credit",
+    "applicable_to": [
+      "Primary (Urban) Co-operative Banks (UCBs)"
+    ],
+    "status": "Active",
+    "summary": "This Master Circular provides a consolidated framework for Primary (Urban) Co-operative Banks (UCBs) regarding the conduct of non-fund-based credit business, specifically Guarantees, Co-acceptances, and Letters of Credit (LCs). The circular outlines prudential limits on exposure, maturity restrictions, and mandatory safeguards to prevent the issuance of accommodation bills or unauthorized LCs. It emphasizes the absolute obligation of banks to honor commitments immediately upon invocation to maintain the credibility of the payment mechanism."
+  },
+  "clauses": [
+    {
+      "clause_number": "1.1",
+      "text": "UCBs should extend guarantees within restricted limits so that their financial position is not impaired.",
+      "summary": "Guarantees should be extended within restricted limits",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "1.1.1",
+      "text": "The total volume of guarantee obligations outstanding at any time may not exceed 10 per cent of the total owned resources of the bank comprising paid up capital, reserves and deposits.",
+      "summary": "Total guarantee obligations should not exceed 10% of total owned resources",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "1.1.2",
+      "text": "Banks may provide only financial guarantees and not performance guarantees.",
+      "summary": "Banks should provide only financial guarantees",
+      "type": "Prohibition"
+    },
+    {
+      "clause_number": "1.1.3",
+      "text": "Guarantees should not be issued for periods exceeding ten years in any case.",
+      "summary": "Guarantees should not exceed 10 years",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "1.1.4",
+      "text": "The proportion of unsecured guarantees outstanding at any time may be limited to an amount equivalent to 25% of the owned funds of the bank or 25% of the total amount of guarantees, whichever is less.",
+      "summary": "Unsecured guarantees should be limited to 25% of owned funds or total guarantees",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "1.1.5",
+      "text": "Banks should preferably issue secured guarantees.",
+      "summary": "Banks should issue secured guarantees",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "1.1.6",
+      "text": "Banks should avoid undue concentration of unsecured guarantee commitments.",
+      "summary": "Banks should avoid undue concentration of unsecured guarantees",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "1.1.7",
+      "text": "Banks should ensure total credit facilities, including proposed deferred payment guarantees, do not exceed prescribed exposure ceilings.",
+      "summary": "Total credit facilities should not exceed exposure ceilings",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "1.2",
+      "text": "UCBs should not issue guarantees for importers of essential commodities without taking a cash margin equivalent to at least one half (50%) of the amount payable under the guarantee.",
+      "summary": "Guarantees for essential commodities require 50% cash margin",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "1.3",
+      "text": "UCBs shall appraise proposals for guarantees with the same diligence as fund-based limits.",
+      "summary": "Guarantee proposals should be appraised with same diligence as fund-based limits",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "1.4",
+      "text": "UCBs should honor bank guarantees issued by them promptly on their invocation.",
+      "summary": "Banks should honor guarantees promptly on invocation",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "2.1",
+      "text": "Co-acceptance limits should be extended only to customers enjoying other limits with the bank.",
+      "summary": "Co-acceptance limits should only be extended to customers with other limits",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "2.2",
+      "text": "Only genuine trade bills should be co-accepted; banks must ensure goods are actually received in the stock accounts of borrowers.",
+      "summary": "Only genuine trade bills should be co-accepted",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "3.1",
+      "text": "UCBs should not normally grant LC facilities to parties who maintain only nominal current accounts.",
+      "summary": "LC facilities should not be granted to parties with nominal current accounts",
+      "type": "Prohibition"
+    },
+    {
+      "clause_number": "3.2",
+      "text": "Banks are not permitted to open inland LCs providing a clause therein which would enable other banks to discount usance bills under the LCs.",
+      "summary": "Inland LCs should not enable other banks to discount usance bills",
+      "type": "Prohibition"
+    },
+    {
+      "clause_number": "4.1",
+      "text": "UCBs are required to strictly observe exposure norms and statutory restrictions for non-fund based limits.",
+      "summary": "UCBs should observe exposure norms and statutory restrictions",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "4.4",
+      "text": "Banks must lay down clear instructions for staff when non-funded facilities become 'funded' due to devolvement or invocation.",
+      "summary": "Banks should have clear instructions for staff when non-funded facilities become funded",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "4.5",
+      "text": "Debts arising from devolved LCs or invoked guarantees must be treated as part of the borrower's principal operating account for NPA identification purposes.",
+      "summary": "Debts from devolved LCs or invoked guarantees should be treated as part of borrower's principal operating account",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "4.6",
+      "text": "Banks must obtain declarations from borrowers about credit facilities enjoyed from other banks and exchange information at least at quarterly intervals.",
+      "summary": "Banks should obtain declarations from borrowers and exchange information quarterly",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "4.8",
+      "text": "Category-I AD Banks must ensure compliance with A.P. (DIR Series) Circular No. 18 dated October 04, 2024 regarding due diligence for non-resident guarantees.",
+      "summary": "Category-I AD Banks should comply with A.P. (DIR Series) Circular No. 18",
+      "type": "Obligation"
+    }
+  ],
+  "obligations": [
+    {
+      "text": "UCBs should extend guarantees within restricted limits so that their financial position is not impaired.",
+      "plain_english": "Banks should only provide guarantees that do not put their financial position at risk.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks (UCBs)"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "1.1"
+    },
+    {
+      "text": "The total volume of guarantee obligations outstanding at any time may not exceed 10 per cent of the total owned resources of the bank comprising paid up capital, reserves and deposits.",
+      "plain_english": "The total amount of guarantees should not be more than 10% of the bank's total resources.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks (UCBs)"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "1.1.1"
+    },
+    {
+      "text": "Banks should preferably issue secured guarantees.",
+      "plain_english": "Banks should prefer to provide guarantees that are backed by some form of security.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks (UCBs)"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "1.1.5"
+    },
+    {
+      "text": "UCBs should not issue guarantees for importers of essential commodities without taking a cash margin equivalent to at least one half (50%) of the amount payable under the guarantee.",
+      "plain_english": "Banks should not provide guarantees for essential commodities without taking a 50% cash margin.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks (UCBs)"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "1.2"
+    },
+    {
+      "text": "UCBs shall appraise proposals for guarantees with the same diligence as fund-based limits.",
+      "plain_english": "Banks should evaluate guarantee proposals with the same care as they would for loans.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks (UCBs)"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "1.3"
+    },
+    {
+      "text": "UCBs should honor bank guarantees issued by them promptly on their invocation.",
+      "plain_english": "Banks should pay out on guarantees as soon as they are invoked.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks (UCBs)"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "1.4"
+    },
+    {
+      "text": "Co-acceptance limits should be extended only to customers enjoying other limits with the bank.",
+      "plain_english": "Banks should only provide co-acceptance limits to customers who already have other loans or credit with the bank.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks (UCBs)"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "2.1"
+    },
+    {
+      "text": "Only genuine trade bills should be co-accepted; banks must ensure goods are actually received in the stock accounts of borrowers.",
+      "plain_english": "Banks should only co-accept bills for real trade transactions and ensure the goods are actually received by the borrower.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks (UCBs)"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "2.2"
+    },
+    {
+      "text": "UCBs should not normally grant LC facilities to parties who maintain only nominal current accounts.",
+      "plain_english": "Banks should not provide letter of credit facilities to parties who only have a small current account balance.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks (UCBs)"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "3.1"
+    },
+    {
+      "text": "Banks are not permitted to open inland LCs providing a clause therein which would enable other banks to discount usance bills under the LCs.",
+      "plain_english": "Banks should not open inland letters of credit that allow other banks to discount usance bills.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks (UCBs)"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "3.2"
+    },
+    {
+      "text": "UCBs are required to strictly observe exposure norms and statutory restrictions for non-fund based limits.",
+      "plain_english": "Banks should strictly follow the rules for non-fund based lending limits.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks (UCBs)"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "4.1"
+    },
+    {
+      "text": "Banks must lay down clear instructions for staff when non-funded facilities become 'funded' due to devolvement or invocation.",
+      "plain_english": "Banks should have clear instructions for staff when non-funded facilities are converted to funded facilities.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks (UCBs)"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "4.4"
+    },
+    {
+      "text": "Debts arising from devolved LCs or invoked guarantees must be treated as part of the borrower's principal operating account for NPA identification purposes.",
+      "plain_english": "Banks should treat debts from devolved letters of credit or invoked guarantees as part of the borrower's main account for non-performing asset identification.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks (UCBs)"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "4.5"
+    },
+    {
+      "text": "Banks must obtain declarations from borrowers about credit facilities enjoyed from other banks and exchange information at least at quarterly intervals.",
+      "plain_english": "Banks should get declarations from borrowers about their credit facilities with other banks and exchange information every quarter.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks (UCBs)"
+      ],
+      "deadline_days": null,
+      "frequency": "Quarterly",
+      "source_clause": "4.6"
+    },
+    {
+      "text": "Category-I AD Banks must ensure compliance with A.P. (DIR Series) Circular No. 18 dated October 04, 2024 regarding due diligence for non-resident guarantees.",
+      "plain_english": "Category-I AD Banks should follow the rules in A.P. (DIR Series) Circular No. 18 for non-resident guarantees.",
+      "applicable_to": [
+        "Category-I AD Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "4.8"
+    }
+  ],
+  "prohibitions": [
+    {
+      "text": "Banks may provide only financial guarantees and not performance guarantees.",
+      "plain_english": "Banks should not provide performance guarantees.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks (UCBs)"
+      ],
+      "source_clause": "1.1.2"
+    },
+    {
+      "text": "Banks are not permitted to open inland LCs providing a clause therein which would enable other banks to discount usance bills under the LCs.",
+      "plain_english": "Banks should not open inland letters of credit that allow other banks to discount usance bills.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks (UCBs)"
+      ],
+      "source_clause": "3.2"
+    },
+    {
+      "text": "UCBs should not normally grant LC facilities to parties who maintain only nominal current accounts.",
+      "plain_english": "Banks should not provide letter of credit facilities to parties who only have a small current account balance.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks (UCBs)"
+      ],
+      "source_clause": "3.1"
+    }
+  ],
+  "penalties": [
+    {
+      "amount": "Deterrent action by RBI",
+      "condition": "Failure to honor invoked bank guarantees",
+      "section": "1.4"
+    },
+    {
+      "amount": "Improper NPA classification",
+      "condition": "Failure to treat debts from devolved LCs or invoked guarantees as part of borrower's principal operating account",
+      "section": "4.5"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "Owned Funds",
+      "definition": "Comprises paid-up capital and reserves of the bank.",
+      "plain_english": "The bank's own capital and reserves."
+    },
+    {
+      "term": "Owned Resources",
+      "definition": "Comprises paid-up capital, reserves, and deposits of the bank.",
+      "plain_english": "The bank's total resources, including deposits."
+    },
+    {
+      "term": "Secured Guarantee",
+      "definition": "A guarantee made on the security of assets (including cash margin) where market value is not less than the contingent liability, or those covered by Central/State Govt/FI counter-guarantees.",
+      "plain_english": "A guarantee backed by assets or counter-guarantees."
+    },
+    {
+      "term": "Unsecured Exposure",
+      "definition": "An exposure where the realisable value of security is not more than 10% of the outstanding exposure.",
+      "plain_english": "A loan or credit with little to no security."
+    },
+    {
+      "term": "Essential Commodities",
+      "definition": "Commodities specified by the RBI from time to time under Selective Credit Controls.",
+      "plain_english": "Important goods that are subject to special credit controls."
+    }
+  ],
+  "references": [
+    {
+      "circular_number": "Master Circular on Exposure Norms and Statutory / Other Restrictions",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "Master Circular on Prudential Norms on Income Recognition, Asset Classification and Provisioning (IRAC)",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "A.P. (DIR Series) Circular No. 18",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "Master Direction on Investment Portfolio of UCBs",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "Negotiable Instruments Act",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "Co-operative Societies Act",
+      "relationship": "references"
+    }
+  ]
+}

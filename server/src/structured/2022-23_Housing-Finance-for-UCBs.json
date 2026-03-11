@@ -1,0 +1,414 @@
+{
+  "circular": {
+    "id": "2025-26_Housing-Finance-for-UCBs",
+    "title": "Master Circular - Housing Finance for UCBs",
+    "date": "2025-04-01",
+    "circular_number": "RBI/2025-26/17 (DOR.CRE.REC.No.11/07.10.002/2025-26)",
+    "type": "Master Direction",
+    "topic": "Credit",
+    "applicable_to": [
+      "Primary (Urban) Co-operative Banks"
+    ],
+    "status": "Active",
+    "summary": "This Master Circular provides a consolidated framework for Primary (Urban) Co-operative Banks to provide housing finance, outlining eligibility criteria, loan limits, and margin requirements. It also prescribes aggregate exposure limits for the real estate sector and mandates safeguards against fraud and unauthorized constructions. The circular aims to ensure that UCBs provide housing finance in a responsible and sustainable manner, while also protecting the interests of borrowers and the overall stability of the financial system."
+  },
+  "clauses": [
+    {
+      "clause_number": "1.1",
+      "text": "UCBs have a strategic role in providing credit to the housing sector, including priority sector lending.",
+      "summary": "UCBs' role in housing sector lending",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "1.2",
+      "text": "Banks are permitted to grant housing loans from their own resources subject to specified guidelines.",
+      "summary": "Permission for UCBs to grant housing loans",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "4.1",
+      "text": "Boards must identify eligible borrowers and decide margins based on repayment capacity.",
+      "summary": "Eligible borrowers and margin requirements",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "4.2.2",
+      "text": "Banks are not permitted to charge foreclosure charges / prepayment penalties on floating rate home loans.",
+      "summary": "Prohibition on foreclosure charges",
+      "type": "Prohibition"
+    },
+    {
+      "clause_number": "4.3.1",
+      "text": "Penalty for non-compliance must be treated as ‘penal charges’ and not ‘penal interest’ added to the interest rate.",
+      "summary": "Penalty for non-compliance",
+      "type": "Penalty"
+    },
+    {
+      "clause_number": "4.5.3",
+      "text": "UCBs must comply with the September 13, 2023 instructions for the timely release of property documents upon loan repayment.",
+      "summary": "Release of property documents",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "4.8.1",
+      "text": "Aggregate exposure to residential mortgages (excluding priority sector) shall not exceed 25 per cent of total loans and advances.",
+      "summary": "Aggregate exposure limit for residential mortgages",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "4.8.2",
+      "text": "Aggregate exposure to the real estate sector (excluding individual housing loans) shall not exceed five per cent of total loans and advances.",
+      "summary": "Aggregate exposure limit for real estate sector",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "4.8.6",
+      "text": "UCBs shall not exceed prescribed limits even for funds obtained from higher financing agencies/NHB.",
+      "summary": "Limit on aggregate exposure",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "5.1",
+      "text": "UCBs may extend finance for repairs/alterations.",
+      "summary": "Finance for repairs/alterations",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "5.3",
+      "text": "Limit of ₹10 lakh in metropolitan centers and ₹6 lakh in other centers for repairs/additions, requiring certificates from qualified engineers/architects.",
+      "summary": "Limit for repairs/additions",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "6.1",
+      "text": "Loans to housing boards must involve a stipulation that the board ensures prompt recovery of installments from beneficiaries.",
+      "summary": "Loans to housing boards",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "7.1",
+      "text": "Banks should normally refrain from sanctioning loans to this category to avoid dual financing.",
+      "summary": "Sanctioning loans to builders/contractors",
+      "type": "Prohibition"
+    },
+    {
+      "clause_number": "7.2",
+      "text": "Financial assistance to contractors undertaking small construction without advance payments is allowed against hypothecation of materials.",
+      "summary": "Financial assistance to contractors",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "7.4",
+      "text": "UCBs shall not extend facilities to builders / contractors for land acquisition. Land accepted as collateral must be valued at current market price only.",
+      "summary": "Prohibition on extending facilities for land acquisition",
+      "type": "Prohibition"
+    },
+    {
+      "clause_number": "7.6",
+      "text": "Disbursal of individual housing loans in projects must be linked to construction stages; upfront disbursal for incomplete/greenfield projects is prohibited.",
+      "summary": "Disbursal of individual housing loans",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "8.1",
+      "text": "Classification must follow the Master Directions on Priority Sector Lending dated March 24, 2025.",
+      "summary": "Classification of priority sector lending",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "9.1",
+      "text": "Banks must verify the genuineness of documents independently to avoid multiple financing frauds.",
+      "summary": "Verification of documents",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "9.2",
+      "text": "Banks must ensure loans are not for unauthorized constructions or misuse of properties.",
+      "summary": "Prohibition on unauthorized constructions",
+      "type": "Prohibition"
+    },
+    {
+      "clause_number": "9.3",
+      "text": "In accordance with the Hon'ble Bombay High Court, banks must stipulate that builders disclose the mortgage charge in all advertisements and brochures and provide an NOC for the sale of flats.",
+      "summary": "Disclosure of mortgage charge",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "10",
+      "text": "Adherence to the NBC is advisable for safety against natural disasters and should be incorporated into bank loan policies.",
+      "summary": "Adherence to National Building Code",
+      "type": "Obligation"
+    }
+  ],
+  "obligations": [
+    {
+      "text": "UCBs must identify eligible borrowers and decide margins based on repayment capacity.",
+      "plain_english": "UCBs must assess borrowers' creditworthiness and set loan margins accordingly.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "4.1"
+    },
+    {
+      "text": "Banks are not permitted to charge foreclosure charges / prepayment penalties on floating rate home loans.",
+      "plain_english": "UCBs cannot charge penalties for early loan repayment on floating rate home loans.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "4.2.2"
+    },
+    {
+      "text": "UCBs must comply with the September 13, 2023 instructions for the timely release of property documents upon loan repayment.",
+      "plain_english": "UCBs must release property documents on time after loan repayment.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "4.5.3"
+    },
+    {
+      "text": "Aggregate exposure to residential mortgages (excluding priority sector) shall not exceed 25 per cent of total loans and advances.",
+      "plain_english": "UCBs must limit their exposure to residential mortgages to 25% of total loans.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "4.8.1"
+    },
+    {
+      "text": "Aggregate exposure to the real estate sector (excluding individual housing loans) shall not exceed five per cent of total loans and advances.",
+      "plain_english": "UCBs must limit their exposure to the real estate sector to 5% of total loans.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "4.8.2"
+    },
+    {
+      "text": "UCBs shall not exceed prescribed limits even for funds obtained from higher financing agencies/NHB.",
+      "plain_english": "UCBs must not exceed exposure limits even with external funding.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "4.8.6"
+    },
+    {
+      "text": "UCBs may extend finance for repairs/alterations.",
+      "plain_english": "UCBs can provide loans for home repairs and alterations.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "5.1"
+    },
+    {
+      "text": "Limit of ₹10 lakh in metropolitan centers and ₹6 lakh in other centers for repairs/additions, requiring certificates from qualified engineers/architects.",
+      "plain_english": "UCBs have limits for repair/addition loans, requiring engineer/architect certificates.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "5.3"
+    },
+    {
+      "text": "Loans to housing boards must involve a stipulation that the board ensures prompt recovery of installments from beneficiaries.",
+      "plain_english": "UCBs must ensure housing boards recover loan installments from beneficiaries on time.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "6.1"
+    },
+    {
+      "text": "Financial assistance to contractors undertaking small construction without advance payments is allowed against hypothecation of materials.",
+      "plain_english": "UCBs can provide loans to contractors for small construction projects without advance payments.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "7.2"
+    },
+    {
+      "text": "UCBs shall not extend facilities to builders / contractors for land acquisition. Land accepted as collateral must be valued at current market price only.",
+      "plain_english": "UCBs cannot provide loans for land acquisition and must value collateral at current market price.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "7.4"
+    },
+    {
+      "text": "Disbursal of individual housing loans in projects must be linked to construction stages; upfront disbursal for incomplete/greenfield projects is prohibited.",
+      "plain_english": "UCBs must link loan disbursal to construction stages and cannot disburse loans upfront for incomplete projects.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "7.6"
+    },
+    {
+      "text": "Classification must follow the Master Directions on Priority Sector Lending dated March 24, 2025.",
+      "plain_english": "UCBs must follow priority sector lending guidelines for loan classification.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "8.1"
+    },
+    {
+      "text": "Banks must verify the genuineness of documents independently to avoid multiple financing frauds.",
+      "plain_english": "UCBs must verify loan documents to prevent fraud.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "9.1"
+    },
+    {
+      "text": "Banks must ensure loans are not for unauthorized constructions or misuse of properties.",
+      "plain_english": "UCBs must ensure loans are not used for unauthorized construction or property misuse.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "9.2"
+    },
+    {
+      "text": "In accordance with the Hon'ble Bombay High Court, banks must stipulate that builders disclose the mortgage charge in all advertisements and brochures and provide an NOC for the sale of flats.",
+      "plain_english": "UCBs must ensure builders disclose mortgage charges and provide NOC for flat sales.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "9.3"
+    },
+    {
+      "text": "Adherence to the NBC is advisable for safety against natural disasters and should be incorporated into bank loan policies.",
+      "plain_english": "UCBs should follow the National Building Code for natural disaster safety.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "10"
+    }
+  ],
+  "prohibitions": [
+    {
+      "text": "Banks are not permitted to charge foreclosure charges / prepayment penalties on floating rate home loans.",
+      "plain_english": "UCBs cannot charge penalties for early loan repayment on floating rate home loans.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks"
+      ],
+      "source_clause": "4.2.2"
+    },
+    {
+      "text": "UCBs shall not extend facilities to builders / contractors for land acquisition.",
+      "plain_english": "UCBs cannot provide loans for land acquisition.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks"
+      ],
+      "source_clause": "7.4"
+    },
+    {
+      "text": "Disbursal of individual housing loans in projects must be linked to construction stages; upfront disbursal for incomplete/greenfield projects is prohibited.",
+      "plain_english": "UCBs must link loan disbursal to construction stages and cannot disburse loans upfront for incomplete projects.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks"
+      ],
+      "source_clause": "7.6"
+    },
+    {
+      "text": "Banks must ensure loans are not for unauthorized constructions or misuse of properties.",
+      "plain_english": "UCBs must ensure loans are not used for unauthorized construction or property misuse.",
+      "applicable_to": [
+        "Primary (Urban) Co-operative Banks"
+      ],
+      "source_clause": "9.2"
+    }
+  ],
+  "penalties": [
+    {
+      "amount": "Not specified",
+      "condition": "Non-compliance with regulations",
+      "section": "4.3.1"
+    },
+    {
+      "amount": "Loan recall",
+      "condition": "Non-compliance with sanctioned plans and affidavit-cum-undertaking",
+      "section": "7"
+    },
+    {
+      "amount": "Withholding of funds",
+      "condition": "Non-compliance with builder disclosure requirements",
+      "section": "9.3"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "Graduated Basis",
+      "definition": "Fixing lower repayment instalments in the initial years and gradually increasing them in subsequent years.",
+      "plain_english": "A repayment schedule with increasing instalments over time."
+    },
+    {
+      "term": "CRE-RH (Commercial Real Estate – Residential Housing)",
+      "definition": "Loans to builders/developers for residential housing projects (excluding non-residential commercial real estate) where the commercial area does not exceed 10% of the total FSI.",
+      "plain_english": "Loans for residential housing projects with limited commercial area."
+    },
+    {
+      "term": "IPRE (Income-producing real estate)",
+      "definition": "Funding where repayment and recovery depend primarily on the cash flows generated by the asset (e.g., lease/rental payments).",
+      "plain_english": "Loans where repayment depends on income generated by the property."
+    },
+    {
+      "term": "Small Value Loans",
+      "definition": "Housing loans up to specific limits defined by UCB Tiering for individual residential units.",
+      "plain_english": "Loans with limited amounts for individual residential units."
+    }
+  ],
+  "references": [
+    {
+      "circular_number": "Master Directions on Priority Sector Lending",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "DOR.STR.REC.13/13.03.00/2024-25",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "DOR.MCS.REC.32/01.01.003/2023-24",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "DOR.MCS.REC.28/01.01.001/2023-24",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "DOR.MCS.REC.38/01.01.001/2023-24",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "DOR.REG.No.84/07.01.000/2022-23",
+      "relationship": "references"
+    }
+  ]
+}

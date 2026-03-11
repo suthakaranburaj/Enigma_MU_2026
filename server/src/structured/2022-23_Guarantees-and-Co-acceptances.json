@@ -1,0 +1,257 @@
+{
+  "circular": {
+    "id": "2025-26_Guarantees-and-Co-acceptances",
+    "title": "Master Circular - Guarantees and Co-acceptances",
+    "date": "2025-04-01",
+    "circular_number": "RBI/2025-26/12",
+    "type": "Master Direction",
+    "topic": "Credit",
+    "applicable_to": [
+      "All Scheduled Commercial Banks"
+    ],
+    "status": "Active",
+    "summary": "This Master Circular provides a consolidated framework for banks regarding the conduct of guarantee and co-acceptance business. It outlines prudential norms for financial and performance guarantees, maturity limits, and unsecured exposures. Key mandates include the requirement for Board-approved policies for non-fund based facilities and the absolute obligation to honor invoked guarantees without delay or demur."
+  },
+  "clauses": [
+    {
+      "clause_number": "2.1.1",
+      "text": "Banks should confine themselves to the provision of financial guarantees and exercise due caution with regard to performance guarantee business.",
+      "summary": "Banks should primarily provide financial guarantees.",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "2.1.3",
+      "text": "No bank guarantee should normally have a maturity of more than 10 years. Banks may evolve a policy for longer durations with Board approval, considering ALM impact.",
+      "summary": "Bank guarantees should not exceed 10 years maturity.",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "2.2.1.1",
+      "text": "Banks' Boards have the freedom to fix their own policies on unsecured exposures. 'Unsecured exposure' is defined as an exposure where the realisable value of security is not more than 10 per cent, ab-initio.",
+      "summary": "Banks can set their own policies for unsecured exposures.",
+      "type": "Definition"
+    },
+    {
+      "clause_number": "2.2.5",
+      "text": "Bank guarantees for Rs. 50,000 and above should be signed by two officials jointly.",
+      "summary": "Guarantees above Rs. 50,000 require joint signatures.",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "2.2.8",
+      "text": "Banks must obtain a minimum margin of 50 percent (with minimum 25 percent cash margin) for such guarantees.",
+      "summary": "Guarantees require a minimum 50% margin.",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "2.4.1",
+      "text": "Banks should not execute guarantees for enabling placement of funds with NBFCs or other non-banking entities directly or indirectly, including inter-company deposits.",
+      "summary": "Banks cannot guarantee funds placement with NBFCs.",
+      "type": "Prohibition"
+    },
+    {
+      "clause_number": "2.5.1",
+      "text": "Payment should be made to beneficiaries without delay and demur. No delay is permitted on the pretext of seeking legal advice.",
+      "summary": "Guarantee payments must be made without delay.",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "2.5.8 (i)",
+      "text": "Guarantees must be honored without hesitation unless there is a Court order restraining the bank.",
+      "summary": "Guarantees must be honored unless court-ordered otherwise.",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "2.5.8 (iv)",
+      "text": "For any non-payment in time, staff accountability should be fixed and stern disciplinary action (including dismissal) taken.",
+      "summary": "Staff must be held accountable for late payments.",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "2.6.2",
+      "text": "Banks should co-accept only genuine trade bills where goods are actually received.",
+      "summary": "Banks should only co-accept genuine trade bills.",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "2.6.2 (xiii)",
+      "text": "Co-acceptances for Rs. 10,000 and above must be signed by two officials jointly.",
+      "summary": "Co-acceptances above Rs. 10,000 require joint signatures.",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "2.7.1",
+      "text": "Banks must be vigilant in import LCs; payments should be released only after ensuring shipping documents strictly conform to LC terms.",
+      "summary": "Banks must be vigilant with import LCs.",
+      "type": "Obligation"
+    }
+  ],
+  "obligations": [
+    {
+      "text": "Banks should confine themselves to the provision of financial guarantees and exercise due caution with regard to performance guarantee business.",
+      "plain_english": "Banks should primarily provide financial guarantees.",
+      "applicable_to": [
+        "All Scheduled Commercial Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "2.1.1"
+    },
+    {
+      "text": "No bank guarantee should normally have a maturity of more than 10 years. Banks may evolve a policy for longer durations with Board approval, considering ALM impact.",
+      "plain_english": "Bank guarantees should not exceed 10 years maturity.",
+      "applicable_to": [
+        "All Scheduled Commercial Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "2.1.3"
+    },
+    {
+      "text": "Bank guarantees for Rs. 50,000 and above should be signed by two officials jointly.",
+      "plain_english": "Guarantees above Rs. 50,000 require joint signatures.",
+      "applicable_to": [
+        "All Scheduled Commercial Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "2.2.5"
+    },
+    {
+      "text": "Banks must obtain a minimum margin of 50 percent (with minimum 25 percent cash margin) for such guarantees.",
+      "plain_english": "Guarantees require a minimum 50% margin.",
+      "applicable_to": [
+        "All Scheduled Commercial Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "2.2.8"
+    },
+    {
+      "text": "Payment should be made to beneficiaries without delay and demur. No delay is permitted on the pretext of seeking legal advice.",
+      "plain_english": "Guarantee payments must be made without delay.",
+      "applicable_to": [
+        "All Scheduled Commercial Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "2.5.1"
+    },
+    {
+      "text": "Guarantees must be honored without hesitation unless there is a Court order restraining the bank.",
+      "plain_english": "Guarantees must be honored unless court-ordered otherwise.",
+      "applicable_to": [
+        "All Scheduled Commercial Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "2.5.8 (i)"
+    },
+    {
+      "text": "For any non-payment in time, staff accountability should be fixed and stern disciplinary action (including dismissal) taken.",
+      "plain_english": "Staff must be held accountable for late payments.",
+      "applicable_to": [
+        "All Scheduled Commercial Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "2.5.8 (iv)"
+    },
+    {
+      "text": "Banks should co-accept only genuine trade bills where goods are actually received.",
+      "plain_english": "Banks should only co-accept genuine trade bills.",
+      "applicable_to": [
+        "All Scheduled Commercial Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "2.6.2"
+    },
+    {
+      "text": "Co-acceptances for Rs. 10,000 and above must be signed by two officials jointly.",
+      "plain_english": "Co-acceptances above Rs. 10,000 require joint signatures.",
+      "applicable_to": [
+        "All Scheduled Commercial Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "2.6.2 (xiii)"
+    },
+    {
+      "text": "Banks must be vigilant in import LCs; payments should be released only after ensuring shipping documents strictly conform to LC terms.",
+      "plain_english": "Banks must be vigilant with import LCs.",
+      "applicable_to": [
+        "All Scheduled Commercial Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "2.7.1"
+    }
+  ],
+  "prohibitions": [
+    {
+      "text": "Banks should not execute guarantees for enabling placement of funds with NBFCs or other non-banking entities directly or indirectly, including inter-company deposits.",
+      "plain_english": "Banks cannot guarantee funds placement with NBFCs.",
+      "applicable_to": [
+        "All Scheduled Commercial Banks"
+      ],
+      "source_clause": "2.4.1"
+    },
+    {
+      "text": "Banks are precluded from co-accepting bills drawn by NBFCs.",
+      "plain_english": "Banks cannot co-accept bills from NBFCs.",
+      "applicable_to": [
+        "All Scheduled Commercial Banks"
+      ],
+      "source_clause": "2.6.2.1"
+    }
+  ],
+  "penalties": [
+    {
+      "amount": "8% interest p.a.",
+      "condition": "For any non-payment in time",
+      "section": "2.5.8 (iv)"
+    },
+    {
+      "amount": "Dismissal/Major Penalty",
+      "condition": "For non-payment of guarantees in time",
+      "section": "2.5.8 (iv)"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "Unsecured Exposure",
+      "definition": "An exposure where the realisable value of security is not more than 10 per cent, ab-initio, of the outstanding exposure.",
+      "plain_english": "Exposure with security value less than 10% of outstanding exposure"
+    },
+    {
+      "term": "Security",
+      "definition": "Tangible security properly charged to the bank; excludes intangible securities like guarantees or letters of comfort.",
+      "plain_english": "Tangible security, excluding guarantees or letters of comfort"
+    },
+    {
+      "term": "Relative",
+      "definition": "Includes members of a Hindu Undivided Family, husband, wife, and specific relations like father, mother, son, daughter, brother, sister (including step-relations and spouses).",
+      "plain_english": "Family members, including spouses and relatives"
+    },
+    {
+      "term": "Major Shareholder",
+      "definition": "A person holding 10 per cent or more of the paid-up share capital.",
+      "plain_english": "Person holding 10% or more of paid-up share capital"
+    }
+  ],
+  "references": [
+    {
+      "circular_number": "DOR.STR.REC.2/13.07.010/2024-25",
+      "relationship": "supersedes"
+    },
+    {
+      "circular_number": "DBR.BP.BC.No.40/21.04.142/2015-16",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "Notification No. FEMA 8/2000-RB",
+      "relationship": "references"
+    }
+  ]
+}

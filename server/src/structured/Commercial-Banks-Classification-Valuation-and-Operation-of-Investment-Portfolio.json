@@ -1,0 +1,177 @@
+{
+  "circular": {
+    "id": "Commercial-Banks-Classification-Valuation-and-Operation-of-Investment-Portfolio",
+    "title": "Reserve Bank of India (Commercial Banks – Classification, Valuation, and Operation of Investment Portfolio) Directions, 2025",
+    "date": "2025-11-28",
+    "circular_number": "RBI/DOR/2025-26/162",
+    "type": "Master Direction",
+    "topic": "Other",
+    "applicable_to": [
+      "Commercial Banks",
+      "Small Finance Banks",
+      "Payment Banks",
+      "Local Area Banks",
+      "corresponding new banks",
+      "State Bank of India"
+    ],
+    "status": "Active",
+    "summary": "These Directions establish a comprehensive framework for commercial banks in India regarding the classification, valuation, and operation of their investment portfolios. Banks must adopt a Board-approved Investment Policy and categorize investments into three categories: Held to Maturity (HTM), Available for Sale (AFS), and Fair Value through Profit and Loss (FVTPL), with Held for Trading (HFT) as a sub-category. The guidelines mandate that all investments be initially recognized at fair value and provide detailed procedures for subsequent measurement, reclassification between categories, and provisioning for Non-Performing Investments (NPI)."
+  },
+  "clauses": [
+    {
+      "clause_number": "1",
+      "text": "These Directions shall be called the Reserve Bank of India (Commercial Banks – Classification, Valuation, and Operation of Investment Portfolio) Directions, 2025.",
+      "summary": "Short title of the Directions",
+      "type": "Definition"
+    },
+    {
+      "clause_number": "2",
+      "text": "These Directions shall come into effect from the date of issue.",
+      "summary": "Effective date of the Directions",
+      "type": "Procedural"
+    },
+    {
+      "clause_number": "3",
+      "text": "These Directions shall be applicable to Commercial Banks (hereinafter collectively referred to as 'banks' and individually as a 'bank'), including banking companies (other than Small Finance Banks, Payment Banks, and Local Area Banks), corresponding new banks, and the State Bank of India.",
+      "summary": "Applicability of the Directions",
+      "type": "Definition"
+    },
+    {
+      "clause_number": "6",
+      "text": "The Board of Directors (Board) shall approve the Investment Policy of the bank as specified in paragraph 16.",
+      "summary": "Board approval of Investment Policy",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "7",
+      "text": "The Board shall constitute an Investment Committee, which shall be responsible and accountable for all investments made by the bank in equity shares, preference shares, convertible instruments, and equity-like products.",
+      "summary": "Constitution of Investment Committee",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "15",
+      "text": "A bank shall undertake investment activities as per the terms and conditions specified in these Directions.",
+      "summary": "Compliance with the Directions",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "16",
+      "text": "A bank shall adopt a comprehensive Investment Policy duly approved by the Board.",
+      "summary": "Adoption of comprehensive Investment Policy",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "33",
+      "text": "A bank shall classify its entire investment portfolio (except investments in subsidiaries, JVs, and associates) under Held to Maturity (HTM), Available for Sale (AFS), and Fair Value through Profit and Loss (FVTPL).",
+      "summary": "Classification of investment portfolio",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "43",
+      "text": "A bank shall measure all investments at fair value on initial recognition. Acquisition cost is presumed to be fair value unless facts suggest otherwise.",
+      "summary": "Initial recognition of investments at fair value",
+      "type": "Obligation"
+    }
+  ],
+  "obligations": [
+    {
+      "text": "Adopt a comprehensive Board-approved Investment Policy.",
+      "plain_english": "The bank must have a detailed investment policy approved by its Board of Directors.",
+      "applicable_to": [
+        "Commercial Banks",
+        "Small Finance Banks",
+        "Payment Banks",
+        "Local Area Banks",
+        "corresponding new banks",
+        "State Bank of India"
+      ],
+      "deadline_days": null,
+      "frequency": "One-time",
+      "source_clause": "6"
+    },
+    {
+      "text": "Constitute an Investment Committee responsible for investments in equity/equity-like products.",
+      "plain_english": "The bank must have a committee to oversee investments in equity and similar products.",
+      "applicable_to": [
+        "Commercial Banks",
+        "Small Finance Banks",
+        "Payment Banks",
+        "Local Area Banks",
+        "corresponding new banks",
+        "State Bank of India"
+      ],
+      "deadline_days": null,
+      "frequency": "One-time",
+      "source_clause": "7"
+    },
+    {
+      "text": "Classify entire investment portfolio into HTM, AFS, or FVTPL (including HFT sub-category).",
+      "plain_english": "The bank must categorize its investments into three categories: Held to Maturity, Available for Sale, and Fair Value through Profit and Loss, with a sub-category for Held for Trading.",
+      "applicable_to": [
+        "Commercial Banks",
+        "Small Finance Banks",
+        "Payment Banks",
+        "Local Area Banks",
+        "corresponding new banks",
+        "State Bank of India"
+      ],
+      "deadline_days": null,
+      "frequency": "One-time",
+      "source_clause": "33"
+    },
+    {
+      "text": "Measure all investments at fair value on initial recognition.",
+      "plain_english": "The bank must value its investments at fair value when they are first recognized.",
+      "applicable_to": [
+        "Commercial Banks",
+        "Small Finance Banks",
+        "Payment Banks",
+        "Local Area Banks",
+        "corresponding new banks",
+        "State Bank of India"
+      ],
+      "deadline_days": null,
+      "frequency": "One-time",
+      "source_clause": "43"
+    }
+  ],
+  "prohibitions": [
+    {
+      "text": "Banks must not entirely rely on external ratings for credit risk analysis.",
+      "plain_english": "The bank must not solely depend on external credit ratings for assessing credit risk.",
+      "applicable_to": [
+        "Commercial Banks",
+        "Small Finance Banks",
+        "Payment Banks",
+        "Local Area Banks",
+        "corresponding new banks",
+        "State Bank of India"
+      ],
+      "source_clause": "25"
+    }
+  ],
+  "penalties": [],
+  "definitions": [
+    {
+      "term": "Held to Maturity (HTM)",
+      "definition": "Classification under HTM is permitted only if the security is acquired with the objective to collect contractual cash flows AND the terms meet the Solely Payments of Principal and Interest (SPPI) criterion.",
+      "plain_english": "A category of investments where the bank intends to hold the security until maturity and receive the principal and interest payments."
+    },
+    {
+      "term": "Available for Sale (AFS)",
+      "definition": "Classification under AFS requires an objective of both collecting contractual cash flows and selling securities, and must meet the SPPI criterion.",
+      "plain_english": "A category of investments where the bank may sell the security before maturity and receive the principal and interest payments."
+    },
+    {
+      "term": "Fair Value through Profit and Loss (FVTPL)",
+      "definition": "Securities not qualifying for HTM or AFS must be classified under FVTPL.",
+      "plain_english": "A category of investments where the bank records changes in the fair value of the security in its profit and loss account."
+    }
+  ],
+  "references": [
+    {
+      "circular_number": "DOR.RRC.REC.302/33-01-010/2025-26",
+      "relationship": "supersedes"
+    }
+  ]
+}

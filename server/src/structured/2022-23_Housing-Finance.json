@@ -1,0 +1,199 @@
+{
+  "circular": {
+    "id": "2025-26_Housing-Finance",
+    "title": "Master Circular – Housing Finance",
+    "date": "2025-04-01",
+    "circular_number": "RBI/2025-26/16 (DOR.CRE.REC.No.12/08.12.001/2025-26)",
+    "type": "Master Direction",
+    "topic": "Credit",
+    "applicable_to": [
+      "All Scheduled Commercial Banks (excluding Regional Rural Banks)"
+    ],
+    "status": "Active",
+    "summary": "This Master Circular consolidates the regulatory framework for housing finance provided by Scheduled Commercial Banks, outlining permissible lending activities and mandating strict adherence to Loan-to-Value ratios and risk weights. It incorporates judicial directives from the Delhi and Bombay High Courts regarding unauthorized construction and disclosure requirements for builders. The circular aims to prevent real estate speculation, ensure consumer protection, and maintain credit discipline."
+  },
+  "clauses": [
+    {
+      "clause_number": "1",
+      "text": "Banks occupy a strategic position in the financial system and play an important role in providing credit to the housing sector.",
+      "summary": "Introduction to the role of banks in housing finance",
+      "type": "Introduction"
+    },
+    {
+      "clause_number": "2",
+      "text": "Bank credit is used for production and construction activities and not for activities connected with speculation in real estate.",
+      "summary": "Prohibition on using bank credit for real estate speculation",
+      "type": "Prohibition"
+    },
+    {
+      "clause_number": "(A) ACQUISITION OF LAND",
+      "text": "Bank finance can be granted only for purchase of a plot, provided a declaration is obtained from the borrower that he intends to construct a house on the said plot within such period as may be laid down by the banks.",
+      "summary": "Condition for granting bank finance for land purchase",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "(B) CONSTRUCTION OF BUILDING / READY-BUILT HOUSE",
+      "text": "Banks may grant loans for purchase/construction of dwelling units and repairs.",
+      "summary": "Permissible lending activities for construction and purchase of dwelling units",
+      "type": "Obligation"
+    }
+  ],
+  "obligations": [
+    {
+      "text": "Obtain a declaration from the borrower of intent to construct a house within a specified period for land purchase loans.",
+      "plain_english": "Get a declaration from the borrower to build a house within a certain time for land purchase loans",
+      "applicable_to": [
+        "All Scheduled Commercial Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "One-time",
+      "source_clause": "1"
+    },
+    {
+      "text": "Verify sanctioned plans and obtain an affidavit-cum-undertaking from borrowers to ensure construction follows approved plans.",
+      "plain_english": "Verify approved plans and get an undertaking from borrowers to ensure construction follows the plans",
+      "applicable_to": [
+        "All Scheduled Commercial Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "(B) CONSTRUCTION OF BUILDING / READY-BUILT HOUSE"
+    },
+    {
+      "text": "Appoint an Architect to certify various stages of construction and completion.",
+      "plain_english": "Appoint an Architect to certify construction stages and completion",
+      "applicable_to": [
+        "All Scheduled Commercial Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "(B) CONSTRUCTION OF BUILDING / READY-BUILT HOUSE"
+    },
+    {
+      "text": "Ensure LTV ratios and Risk Weights are maintained as per the prescribed limits (e.g., LTV ≤ 80% for loans up to ₹30 lakh).",
+      "plain_english": "Maintain LTV ratios and Risk Weights within prescribed limits",
+      "applicable_to": [
+        "All Scheduled Commercial Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "2"
+    },
+    {
+      "text": "Prohibit the levy of foreclosure charges or prepayment penalties on floating rate home loans.",
+      "plain_english": "Do not charge foreclosure charges or prepayment penalties on floating rate home loans",
+      "applicable_to": [
+        "All Scheduled Commercial Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "2"
+    },
+    {
+      "text": "Provide a Key Facts Statement (KFS) for all housing loans as per the April 15, 2024 instructions.",
+      "plain_english": "Provide a Key Facts Statement for all housing loans",
+      "applicable_to": [
+        "All Scheduled Commercial Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "One-time",
+      "source_clause": "2"
+    },
+    {
+      "text": "Ensure builders disclose the name of the mortgagee bank in all marketing pamphlets and brochures.",
+      "plain_english": "Ensure builders disclose the mortgagee bank's name in marketing materials",
+      "applicable_to": [
+        "All Scheduled Commercial Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "(B) CONSTRUCTION OF BUILDING / READY-BUILT HOUSE"
+    },
+    {
+      "text": "Link loan disbursal to the stages of construction; prohibit upfront lump-sum disbursal for incomplete/greenfield projects.",
+      "plain_english": "Link loan disbursal to construction stages and prohibit upfront lump-sum disbursal",
+      "applicable_to": [
+        "All Scheduled Commercial Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "2"
+    },
+    {
+      "text": "Adhere to the National Building Code (NBC) for building safety and incorporate it into loan policies.",
+      "plain_english": "Adhere to the National Building Code for building safety",
+      "applicable_to": [
+        "All Scheduled Commercial Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "2"
+    },
+    {
+      "text": "Limit supplementary finance for repairs/additions to ₹10 lakh in metropolitan centers and ₹6 lakh in other centers.",
+      "plain_english": "Limit supplementary finance for repairs/additions",
+      "applicable_to": [
+        "All Scheduled Commercial Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "(viii) Supplementary Finance"
+    }
+  ],
+  "prohibitions": [
+    {
+      "text": "Bank credit is used for production and construction activities and not for activities connected with speculation in real estate.",
+      "plain_english": "Do not use bank credit for real estate speculation",
+      "applicable_to": [
+        "All Scheduled Commercial Banks"
+      ],
+      "source_clause": "2"
+    },
+    {
+      "text": "No loan should be given for properties in unauthorized colonies until regularized.",
+      "plain_english": "Do not give loans for properties in unauthorized colonies",
+      "applicable_to": [
+        "All Scheduled Commercial Banks"
+      ],
+      "source_clause": "(B) CONSTRUCTION OF BUILDING / READY-BUILT HOUSE"
+    },
+    {
+      "text": "No loan for residential properties intended for commercial use.",
+      "plain_english": "Do not give loans for residential properties intended for commercial use",
+      "applicable_to": [
+        "All Scheduled Commercial Banks"
+      ],
+      "source_clause": "(B) CONSTRUCTION OF BUILDING / READY-BUILT HOUSE"
+    }
+  ],
+  "penalties": [
+    {
+      "amount": "Loan recall",
+      "condition": "Failure to verify sanctioned plans and obtain an affidavit-cum-undertaking from borrowers",
+      "section": "(B) CONSTRUCTION OF BUILDING / READY-BUILT HOUSE"
+    },
+    {
+      "amount": "Withholding of funds",
+      "condition": "Failure to ensure builders disclose the name of the mortgagee bank in all marketing pamphlets and brochures",
+      "section": "(B) CONSTRUCTION OF BUILDING / READY-BUILT HOUSE"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "LTV ratio",
+      "definition": "Loan-to-Value ratio",
+      "plain_english": "The ratio of the loan amount to the value of the property"
+    },
+    {
+      "term": "Risk Weight",
+      "definition": "The weight assigned to a loan based on its risk",
+      "plain_english": "A measure of the risk associated with a loan"
+    }
+  ],
+  "references": [
+    {
+      "circular_number": "RBI/2024-25/07 (DOR.CRE.REC.No.07/08.12.001/2024-25)",
+      "relationship": "supersedes"
+    }
+  ]
+}

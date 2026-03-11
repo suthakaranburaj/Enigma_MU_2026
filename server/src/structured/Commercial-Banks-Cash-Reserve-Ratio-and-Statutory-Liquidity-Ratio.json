@@ -1,0 +1,115 @@
+{
+  "circular": {
+    "id": "Commercial-Banks-Cash-Reserve-Ratio-and-Statutory-Liquidity-Ratio",
+    "title": "Reserve Bank of India (Commercial Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Directions, 2025",
+    "date": "2025-11-28",
+    "circular_number": "RBI/DOR/2025-26/150",
+    "type": "Master Direction",
+    "topic": "General",
+    "applicable_to": [
+      "Commercial Banks",
+      "State Bank of India",
+      "corresponding new banks"
+    ],
+    "status": "Active",
+    "summary": "These Directions mandate the maintenance of Cash Reserve Ratio (CRR) and Statutory Liquidity Ratio (SLR) by all commercial banks in India. Banks are required to maintain a specified percentage of their Net Demand and Time Liabilities (NDTL) as cash balances with the RBI (CRR) and as liquid assets like gold or government securities (SLR). Non-compliance results in significant penal interest charges and potential regulatory action against bank management."
+  },
+  "clauses": [
+    {
+      "clause_number": "1",
+      "text": "These Directions shall be called the Reserve Bank of India (Commercial Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Directions, 2025.",
+      "summary": "Short title and commencement of the Directions",
+      "type": "Definition"
+    },
+    {
+      "clause_number": "3",
+      "text": "These Directions apply to all Commercial Banks, including SBI and corresponding new banks, but excluding SFBs, Local Area Banks, and Payments Banks.",
+      "summary": "Applicability of the Directions",
+      "type": "Definition"
+    },
+    {
+      "clause_number": "7",
+      "text": "Every bank shall maintain in India a cash reserve as a percentage of its NDTL as specified by RBI under Section 42(1) of the RBI Act, 1934, and Section 18(1) of the BR Act, 1949.",
+      "summary": "Maintenance of Cash Reserve Ratio (CRR)",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "24",
+      "text": "Every bank shall maintain assets in India valued at no less than the percentage specified by RBI (not exceeding 40%) of its demand and time liabilities.",
+      "summary": "Maintenance of Statutory Liquidity Ratio (SLR)",
+      "type": "Obligation"
+    }
+  ],
+  "obligations": [
+    {
+      "text": "Maintain average daily CRR balance as prescribed (3% - 3.75% of NDTL depending on the period)",
+      "plain_english": "Banks must maintain a minimum cash balance with the RBI",
+      "applicable_to": [
+        "Commercial Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "7"
+    },
+    {
+      "text": "Maintain minimum daily CRR balance of at least 90% of the requirement",
+      "plain_english": "Banks must maintain a minimum daily cash balance",
+      "applicable_to": [
+        "Commercial Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Daily",
+      "source_clause": "10"
+    },
+    {
+      "text": "Maintain SLR assets (Cash, Gold, or Approved Securities) at no less than 18% of NDTL",
+      "plain_english": "Banks must maintain a minimum level of liquid assets",
+      "applicable_to": [
+        "Commercial Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "24"
+    }
+  ],
+  "prohibitions": [
+    {
+      "text": "Failure to maintain CRR or SLR",
+      "plain_english": "Banks are not allowed to fail to maintain the required cash and liquid asset levels",
+      "applicable_to": [
+        "Commercial Banks"
+      ],
+      "source_clause": "42-45"
+    }
+  ],
+  "penalties": [
+    {
+      "amount": "Bank Rate + 3% (first day) or + 5% (succeeding days)",
+      "condition": "Failure to maintain CRR",
+      "section": "42-45"
+    },
+    {
+      "amount": "Penal interest under Section 24 of the BR Act, 1949",
+      "condition": "Failure to maintain SLR",
+      "section": "46-48"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "Aggregate Deposits",
+      "definition": "Aggregation of demand and time deposits",
+      "plain_english": "Total deposits held by a bank"
+    },
+    {
+      "term": "Approved Securities/SLR securities",
+      "definition": "Dated G-Secs, T-Bills, State Development Loans (SDLs), and other notified instruments",
+      "plain_english": "Securities that can be held as part of the SLR"
+    }
+  ],
+  "references": [
+    {
+      "circular_number": "RBI/DOR/2025-26/150",
+      "relationship": "supersedes"
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "circular": {
+    "id": "2025-26/56",
+    "title": "Master Circular - Credit facilities to Scheduled Castes (SCs) & Scheduled Tribes (STs)",
+    "date": "2025-06-16",
+    "circular_number": "RBI/2025-26/56 (FIDD.CO.GSSD.BC.No.07/09.09.001/2025-26)",
+    "type": "Master Direction",
+    "topic": "PSL",
+    "applicable_to": [
+      "All Scheduled Commercial Banks",
+      "Small Finance Banks"
+    ],
+    "status": "Active",
+    "summary": "This Master Circular consolidates existing guidelines for banks to increase credit flow to Scheduled Castes and Scheduled Tribes. It mandates that banks integrate SC/ST credit planning into the Lead Bank Scheme and Block-level plans, ensuring loan proposals are handled with sympathy. Banks are prohibited from insisting on deposits for government-sponsored poverty alleviation schemes and must ensure rejections are handled by a higher administrative level than the branch."
+  },
+  "clauses": [
+    {
+      "clause_number": "1.1",
+      "text": "The district credit plans formulated by the Lead Banks should clearly indicate the linkage of credit with employment and development schemes.",
+      "summary": "District credit plans should link credit with employment and development schemes",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "1.2",
+      "text": "Banks will have to establish closer liaison with the District Industries Centres for promoting self-employment.",
+      "summary": "Banks should establish closer liaison with District Industries Centres",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "1.3",
+      "text": "At the block level, a certain weightage is to be given to SCs/STs in the planning process. Credit planning should be weighted in their favour and special bankable schemes suited to them should be drawn up.",
+      "summary": "Block-level planning should give weightage to SCs/STs",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "1.4",
+      "text": "Banks should periodically review their lending procedures and policies to see that loans are sanctioned in time, are adequate and production-oriented.",
+      "summary": "Banks should review lending procedures and policies",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "1.5",
+      "text": "While formulating the Block/ District Credit Plan, special focus may be given to villages with sizeable population of SC/ST communities/ specific localities (bastis).",
+      "summary": "Block/District Credit Plan should focus on villages with SC/ST communities",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "2.1",
+      "text": "Bank staff may help the borrowers in filling up the forms and completing other formalities to ensure credit is received within a stipulated period.",
+      "summary": "Bank staff should help borrowers with forms and formalities",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "2.2",
+      "text": "Awareness must be created through brochures, visits by field staff, etc. Banks should advise their branches to organize meetings more frequently exclusively for SC/ST beneficiaries.",
+      "summary": "Banks should create awareness and organize meetings for SC/ST beneficiaries",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "2.3",
+      "text": "Circulars issued by RBI/NABARD should be circulated among the staff for compliance.",
+      "summary": "Banks should circulate RBI/NABARD circulars among staff",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "2.4",
+      "text": "Banks should not insist on deposits while considering loan applications under Government sponsored poverty alleviation schemes/self-employment programmes from SC/ST borrowers.",
+      "summary": "Banks should not insist on deposits for SC/ST borrowers",
+      "type": "Prohibition"
+    },
+    {
+      "clause_number": "2.5",
+      "text": "It should also be ensured that applicable subsidy is not held back while releasing the loan component till the full repayment of bank dues.",
+      "summary": "Banks should not hold back subsidies for SC/ST borrowers",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "2.6",
+      "text": "Banks should advise their branches/controlling offices to render institutional support to the National Scheduled Tribes Finance & Development Corporation and National Scheduled Castes Finance & Development Corporation.",
+      "summary": "Banks should provide institutional support to SC/ST finance corporations",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "2.7",
+      "text": "Rejection of SC/STs’ loan applications under government programmes should be done at the next higher level instead of at the branch level and reasons of rejection should be clearly indicated.",
+      "summary": "Rejection of SC/ST loan applications should be done at higher level",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "4.1",
+      "text": "DAY-NRLM would ensure adequate coverage such that 50% of beneficiaries are SCs/STs.",
+      "summary": "DAY-NRLM should ensure 50% beneficiaries are SCs/STs",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "4.2",
+      "text": "Banks have been advised to grant eligible borrowers belonging to SCs/STs advances to the extent of not less than 2/5th (40 percent) of total DRI advances.",
+      "summary": "Banks should grant 40% of DRI advances to SCs/STs",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "6.1",
+      "text": "A special cell should be set up at the Head Office of banks for monitoring the flow of credit to SC/ST beneficiaries.",
+      "summary": "Banks should set up special cell for monitoring SC/ST credit",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "6.2",
+      "text": "Any major gap or variation in credit flow to SCs/STs on a year to year basis should be reported to the Board as part of the review on the theme of “Financial Inclusion”.",
+      "summary": "Banks should report gaps in SC/ST credit flow to Board",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "6.3",
+      "text": "Banks should review the measures taken to enhance the flow of credit to SC/ST borrowers on a quarterly basis.",
+      "summary": "Banks should review SC/ST credit measures quarterly",
+      "type": "Obligation"
+    }
+  ],
+  "obligations": [
+    {
+      "text": "District credit plans should link credit with employment and development schemes",
+      "plain_english": "Banks should ensure district credit plans consider employment and development schemes for SCs/STs",
+      "applicable_to": [
+        "All Scheduled Commercial Banks",
+        "Small Finance Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "1.1"
+    },
+    {
+      "text": "Banks should establish closer liaison with District Industries Centres",
+      "plain_english": "Banks should work closely with District Industries Centres to promote self-employment for SCs/STs",
+      "applicable_to": [
+        "All Scheduled Commercial Banks",
+        "Small Finance Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "1.2"
+    },
+    {
+      "text": "Block-level planning should give weightage to SCs/STs",
+      "plain_english": "Banks should give priority to SCs/STs in block-level credit planning",
+      "applicable_to": [
+        "All Scheduled Commercial Banks",
+        "Small Finance Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "1.3"
+    },
+    {
+      "text": "Banks should review lending procedures and policies",
+      "plain_english": "Banks should regularly review their lending procedures to ensure they are adequate and production-oriented for SCs/STs",
+      "applicable_to": [
+        "All Scheduled Commercial Banks",
+        "Small Finance Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "1.4"
+    },
+    {
+      "text": "Block/District Credit Plan should focus on villages with SC/ST communities",
+      "plain_english": "Banks should focus on villages with significant SC/ST populations when creating Block/District Credit Plans",
+      "applicable_to": [
+        "All Scheduled Commercial Banks",
+        "Small Finance Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "1.5"
+    },
+    {
+      "text": "Bank staff should help borrowers with forms and formalities",
+      "plain_english": "Bank staff should assist SC/ST borrowers with completing forms and other formalities",
+      "applicable_to": [
+        "All Scheduled Commercial Banks",
+        "Small Finance Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "2.1"
+    },
+    {
+      "text": "Banks should create awareness and organize meetings for SC/ST beneficiaries",
+      "plain_english": "Banks should create awareness about their services and organize meetings specifically for SC/ST beneficiaries",
+      "applicable_to": [
+        "All Scheduled Commercial Banks",
+        "Small Finance Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "2.2"
+    },
+    {
+      "text": "Banks should circulate RBI/NABARD circulars among staff",
+      "plain_english": "Banks should ensure that their staff is aware of and complies with RBI and NABARD circulars",
+      "applicable_to": [
+        "All Scheduled Commercial Banks",
+        "Small Finance Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "2.3"
+    },
+    {
+      "text": "Banks should not hold back subsidies for SC/ST borrowers",
+      "plain_english": "Banks should ensure that subsidies for SC/ST borrowers are not delayed or withheld",
+      "applicable_to": [
+        "All Scheduled Commercial Banks",
+        "Small Finance Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "2.5"
+    },
+    {
+      "text": "Banks should provide institutional support to SC/ST finance corporations",
+      "plain_english": "Banks should support and work with SC/ST finance corporations to promote financial inclusion",
+      "applicable_to": [
+        "All Scheduled Commercial Banks",
+        "Small Finance Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "2.6"
+    },
+    {
+      "text": "Rejection of SC/ST loan applications should be done at higher level",
+      "plain_english": "Banks should ensure that rejections of SC/ST loan applications are done at a higher level than the branch level and with clear reasons",
+      "applicable_to": [
+        "All Scheduled Commercial Banks",
+        "Small Finance Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "2.7"
+    },
+    {
+      "text": "DAY-NRLM should ensure 50% beneficiaries are SCs/STs",
+      "plain_english": "Banks should ensure that at least 50% of DAY-NRLM beneficiaries are from SC/ST communities",
+      "applicable_to": [
+        "All Scheduled Commercial Banks",
+        "Small Finance Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "4.1"
+    },
+    {
+      "text": "Banks should grant 40% of DRI advances to SCs/STs",
+      "plain_english": "Banks should allocate at least 40% of DRI advances to eligible SC/ST borrowers",
+      "applicable_to": [
+        "All Scheduled Commercial Banks",
+        "Small Finance Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "4.2"
+    },
+    {
+      "text": "Banks should set up special cell for monitoring SC/ST credit",
+      "plain_english": "Banks should establish a special cell at their Head Office to monitor and report on credit flow to SC/ST beneficiaries",
+      "applicable_to": [
+        "All Scheduled Commercial Banks",
+        "Small Finance Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "One-time",
+      "source_clause": "6.1"
+    },
+    {
+      "text": "Banks should report gaps in SC/ST credit flow to Board",
+      "plain_english": "Banks should report any significant gaps or variations in credit flow to SC/ST beneficiaries to their Board as part of the Financial Inclusion review",
+      "applicable_to": [
+        "All Scheduled Commercial Banks",
+        "Small Finance Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Annual",
+      "source_clause": "6.2"
+    },
+    {
+      "text": "Banks should review SC/ST credit measures quarterly",
+      "plain_english": "Banks should regularly review the measures taken to enhance credit flow to SC/ST borrowers on a quarterly basis",
+      "applicable_to": [
+        "All Scheduled Commercial Banks",
+        "Small Finance Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Quarterly",
+      "source_clause": "6.3"
+    }
+  ],
+  "prohibitions": [
+    {
+      "text": "Banks should not insist on deposits for SC/ST borrowers",
+      "plain_english": "Banks should not require deposits from SC/ST borrowers for government-sponsored poverty alleviation or self-employment schemes",
+      "applicable_to": [
+        "All Scheduled Commercial Banks",
+        "Small Finance Banks"
+      ],
+      "source_clause": "2.4"
+    }
+  ],
+  "penalties": [],
+  "definitions": [
+    {
+      "term": "SCs/STs",
+      "definition": "Scheduled Castes and Scheduled Tribes as recognized under the Constitution of India",
+      "plain_english": "Communities recognized by the Indian Constitution as Scheduled Castes or Scheduled Tribes"
+    },
+    {
+      "term": "Lead Bank Scheme",
+      "definition": "A scheme for coordinating activities of banks and other developmental agencies to deliver a coordinated approach to credit in rural areas",
+      "plain_english": "A scheme to coordinate bank and developmental agency activities for rural credit"
+    },
+    {
+      "term": "DAY-NRLM",
+      "definition": "Deendayal Antyodaya Yojana - National Rural Livelihoods Mission",
+      "plain_english": "A government program aimed at rural livelihoods and poverty alleviation"
+    },
+    {
+      "term": "DRI Scheme",
+      "definition": "Differential Rate of Interest Scheme providing concessional credit at 4% p.a.",
+      "plain_english": "A scheme offering loans at a reduced interest rate of 4% per annum"
+    },
+    {
+      "term": "CEGSSC",
+      "definition": "Credit Enhancement Guarantee Scheme for Scheduled Castes",
+      "plain_english": "A guarantee scheme to enhance credit access for Scheduled Caste entrepreneurs"
+    },
+    {
+      "term": "SCDC",
+      "definition": "State Scheduled Castes and Scheduled Tribes Finance and Development Corporation",
+      "plain_english": "State-level corporations for financing and developing Scheduled Caste and Scheduled Tribe communities"
+    }
+  ],
+  "references": [
+    {
+      "circular_number": "DBR No.BC.93/29.67.001/2014-15",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "Master Direction on Priority Sector Lending",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "Master Circular on DAY-NRLM",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "FEMA Notification No. 20",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "Banking Regulation Act, 1949",
+      "relationship": "references"
+    }
+  ]
+}

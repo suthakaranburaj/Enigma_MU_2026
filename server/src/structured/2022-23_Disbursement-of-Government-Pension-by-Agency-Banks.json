@@ -1,0 +1,219 @@
+{
+  "circular": {
+    "id": "RBI/2025-26/05",
+    "title": "Master Circular - Disbursement of Government Pension by Agency Banks",
+    "date": "2025-04-01",
+    "circular_number": "RBI/2025-26/05",
+    "type": "Master Direction",
+    "topic": "General",
+    "applicable_to": [
+      "All Agency Banks"
+    ],
+    "status": "Active",
+    "summary": "This Master Circular consolidates all instructions regarding the disbursement of Central and State Government pensions by agency banks. It requires banks to act immediately on government orders regarding Dearness Relief (DR) and ensures proper facilities for sick or disabled pensioners. The circular also standardizes the refund process for overpayments and emphasizes high-quality customer service."
+  },
+  "clauses": [
+    {
+      "clause_number": "2",
+      "text": "The procedure of forwarding related government orders in respect of dearness relief etc. to pension disbursing agency banks has been discontinued. Agency banks may act on the copies of government orders provided through post, fax, e-mails or by accessing from the government websites and authorize their pension paying branches to make payments to the pensioners immediately.",
+      "summary": "Agency banks to act on government orders regarding DR",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "3",
+      "text": "All agency banks are advised to scrupulously follow all the guidelines/ instructions contained in various notifications of Government (Central as well as States) and take necessary action immediately without waiting for any further instructions from RBI.",
+      "summary": "Agency banks to follow government guidelines",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "4",
+      "text": "The pension paying banks will credit the pension amount in the accounts of the pensioners based on the instructions given by respective Pension Paying Authorities.",
+      "summary": "Pension paying banks to credit pension amount",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "5",
+      "text": "Whenever any excess/overpayment is detected, the entire amount thereof should be credited to the Government account in lump sum immediately, when the excess/overpayment is due to an error on the part of the agency bank.",
+      "summary": "Refund of excess pension payment to Government",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "10",
+      "text": "Agency banks are requested to instruct their branches to display instructions on notice boards and sensitize staff regarding facilities for sick and disabled persons.",
+      "summary": "Agency banks to display instructions for sick/disabled pensioners",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "12",
+      "text": "In case the spouse (family pensioner) opts for the existing joint account for credit of family pension, banks should not insist on opening a new account if the spouse is the survivor and authorization exists in the PPO.",
+      "summary": "Continuation of joint accounts after death of pensioner",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "13",
+      "text": "Agency banks must mandatorily issue duly signed acknowledgements for life certificates submitted over the counter.",
+      "summary": "Issuance of acknowledgement for life certificates",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "16",
+      "text": "Agency banks should appoint one/two nodal officers at each Region/Zone for monitoring grievance resolution.",
+      "summary": "Appointment of nodal officers for grievance resolution",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "18",
+      "text": "Pension paying banks should compensate the pensioner for delay in crediting pension/arrears at a fixed interest rate of 8 per cent per annum for the delay after the due date of payment.",
+      "summary": "Compensation for delay in crediting pension/arrears",
+      "type": "Obligation"
+    }
+  ],
+  "obligations": [
+    {
+      "text": "Act on government orders regarding DR immediately",
+      "plain_english": "Agency banks must act on government orders regarding Dearness Relief immediately",
+      "applicable_to": [
+        "All Agency Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "2"
+    },
+    {
+      "text": "Follow government guidelines",
+      "plain_english": "Agency banks must follow government guidelines",
+      "applicable_to": [
+        "All Agency Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "3"
+    },
+    {
+      "text": "Credit pension amount based on instructions from Pension Paying Authorities",
+      "plain_english": "Pension paying banks must credit pension amount based on instructions from Pension Paying Authorities",
+      "applicable_to": [
+        "All Agency Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Monthly",
+      "source_clause": "4"
+    },
+    {
+      "text": "Refund excess pension payment to Government",
+      "plain_english": "Agency banks must refund excess pension payment to Government immediately",
+      "applicable_to": [
+        "All Agency Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "One-time",
+      "source_clause": "5"
+    },
+    {
+      "text": "Display instructions for sick/disabled pensioners",
+      "plain_english": "Agency banks must display instructions for sick/disabled pensioners",
+      "applicable_to": [
+        "All Agency Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "10"
+    },
+    {
+      "text": "Issue acknowledgement for life certificates",
+      "plain_english": "Agency banks must issue acknowledgement for life certificates",
+      "applicable_to": [
+        "All Agency Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "One-time",
+      "source_clause": "13"
+    },
+    {
+      "text": "Appoint nodal officers for grievance resolution",
+      "plain_english": "Agency banks must appoint nodal officers for grievance resolution",
+      "applicable_to": [
+        "All Agency Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "One-time",
+      "source_clause": "16"
+    },
+    {
+      "text": "Compensate pensioners for delay in crediting pension/arrears",
+      "plain_english": "Pension paying banks must compensate pensioners for delay in crediting pension/arrears",
+      "applicable_to": [
+        "All Agency Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "One-time",
+      "source_clause": "18"
+    }
+  ],
+  "prohibitions": [
+    {
+      "text": "Insist on opening a new account for family pension if spouse is survivor and authorization exists in PPO",
+      "plain_english": "Banks should not insist on opening a new account for family pension if spouse is survivor and authorization exists in PPO",
+      "applicable_to": [
+        "All Agency Banks"
+      ],
+      "source_clause": "12"
+    }
+  ],
+  "penalties": [
+    {
+      "amount": "8% interest",
+      "condition": "Delay in crediting pension/arrears",
+      "section": "18"
+    },
+    {
+      "amount": "Rejection of commission",
+      "condition": "Agency commission claims not accompanied by certificate from ED/CGM",
+      "section": "8"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "Agency Banks",
+      "definition": "Banks authorized to conduct government business on behalf of RBI",
+      "plain_english": "Banks that handle government business"
+    },
+    {
+      "term": "CPPC",
+      "definition": "Centralized Pension Processing Centre",
+      "plain_english": "Centre for processing pensions"
+    },
+    {
+      "term": "DR",
+      "definition": "Dearness Relief",
+      "plain_english": "Relief for inflation"
+    },
+    {
+      "term": "PPO",
+      "definition": "Pension Payment Order",
+      "plain_english": "Order for pension payment"
+    }
+  ],
+  "references": [
+    {
+      "circular_number": "DGBA.GAD.No.130/45.01.001/2002-03",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "DGBA.GAD.No.H-10450/45.03.001/2008-09",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "RBI/2014-15/587",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "RBI/2020-21/DGBA.GBD.No.SUO 546",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "RBI/2016-17/271",
+      "relationship": "references"
+    }
+  ]
+}

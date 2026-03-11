@@ -1,0 +1,305 @@
+{
+  "circular": {
+    "id": "2025-26_Exposure-Norms-and-Statutory-Other-Restrictions-UCBs",
+    "title": "Master Circular - Exposure Norms and Statutory / Other Restrictions - UCBs",
+    "date": "2025-04-01",
+    "circular_number": "RBI/2025-26/19",
+    "type": "Master Direction",
+    "topic": "Credit",
+    "applicable_to": [
+      "Urban Co-operative Banks"
+    ],
+    "status": "Active",
+    "summary": "This Master Circular consolidates prudential instructions for Urban Co-operative Banks to manage credit risk and avoid concentration. It mandates exposure ceilings for individual and group borrowers linked to Tier-I capital, sets specific targets for Small Value Loans to promote financial inclusion, and establishes limits on real estate and unsecured advances. Furthermore, it details statutory and regulatory prohibitions, notably the ban on lending to directors, their relatives, or against the bank's own shares, ensuring robust governance and financial stability within the co-operative banking sector."
+  },
+  "clauses": [
+    {
+      "clause_number": "1.1",
+      "text": "As a prudential measure aimed at better risk management and avoidance of concentration of credit risk, UCBs have been advised to fix limits on their exposure to borrowers and specific sectors.",
+      "summary": "UCBs must fix exposure limits to manage credit risk",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "1.2",
+      "text": "Banks must observe statutory and regulatory restrictions regarding advances against and investments in shares, debentures, and bonds.",
+      "summary": "UCBs must observe statutory and regulatory restrictions",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "2.1",
+      "text": "Tier-I capital as on March 31 of the preceding financial year shall be reckoned for fixing exposure limits.",
+      "summary": "Tier-I capital definition for exposure limits",
+      "type": "Definition"
+    },
+    {
+      "clause_number": "2.3.1",
+      "text": "Includes funded/non-funded limits, equipment leasing, hire purchase financing, and ad hoc limits.",
+      "summary": "Credit exposure definition",
+      "type": "Definition"
+    },
+    {
+      "clause_number": "2.5",
+      "text": "The decision regarding the definition of a group is left to the UCB's perception based on commonality of management and effective control.",
+      "summary": "Group borrower definition",
+      "type": "Definition"
+    },
+    {
+      "clause_number": "2.6",
+      "text": "Includes clean overdrafts and loans against personal security but excludes advances backed by government guarantees, supply bills drawn on government, and the secured portion of partly secured advances.",
+      "summary": "Unsecured advances definition",
+      "type": "Definition"
+    },
+    {
+      "clause_number": "3.1.1",
+      "text": "With Board approval, fix ceilings so that: (i) Exposure to an individual borrower does not exceed 15% of Tier-I capital. (ii) Exposure to a group of connected borrowers does not exceed 25% of Tier-I capital.",
+      "summary": "Exposure ceilings for individual and group borrowers",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "3.3",
+      "text": "UCBs shall have at least 50% of aggregate loans comprising Small Value Loans (value ≤ ₹25 lakh or 0.4% of Tier-I capital, whichever is higher), subject to a ceiling of ₹3 crore per borrower.",
+      "summary": "Small value loans target",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "3.4.2",
+      "text": "Aggregate exposure to residential mortgages (excluding priority sector) shall not exceed 25% of total loans and advances.",
+      "summary": "Real estate exposure limit",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "3.4.3",
+      "text": "Aggregate exposure to the real estate sector (excluding housing loans to individuals) shall not exceed 5% of total loans and advances.",
+      "summary": "Real estate sector exposure limit",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "4.1",
+      "text": "Individual/Group limits depend on CRAR and DTL: * CRAR ≥ 9%: Limits range from ₹1 lakh to ₹5 lakh depending on DTL. * CRAR < 9%: Limits range from ₹0.25 lakh to ₹2 lakh depending on DTL.",
+      "summary": "Unsecured advances limits",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "4.2.1",
+      "text": "Total unsecured advances should not exceed 10% of total assets as per the audited balance sheet of the preceding March 31.",
+      "summary": "Aggregate unsecured advances limit",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "5.2",
+      "text": "In terms of Section 20(1)(a) of the Banking Regulation Act, 1949, UCBs cannot grant loans and advances on the security of their own shares.",
+      "summary": "Prohibition on lending against own shares",
+      "type": "Prohibition"
+    },
+    {
+      "clause_number": "5.3",
+      "text": "UCBs shall not, except with prior RBI approval, remit any debt due to it by past/present directors or firms in which they are interested.",
+      "summary": "Prohibition on remitting debt to directors",
+      "type": "Prohibition"
+    },
+    {
+      "clause_number": "6.1.1",
+      "text": "UCBs shall not make, provide, or renew any loans/advances to directors or their relatives, or to firms/companies in which they are interested.",
+      "summary": "Prohibition on lending to directors and relatives",
+      "type": "Prohibition"
+    },
+    {
+      "clause_number": "6.6.1",
+      "text": "Prohibited for stock brokers and commodity brokers.",
+      "summary": "Prohibition on bank finance against shares, debentures, and bonds for stock brokers and commodity brokers",
+      "type": "Prohibition"
+    },
+    {
+      "clause_number": "6.6.3",
+      "text": "Individual loans limited to ₹5 lakh (physical) and ₹10 lakh (demat).",
+      "summary": "Limit on individual loans against shares, debentures, and bonds",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "6.6.4",
+      "text": "Maintain a margin of 50%.",
+      "summary": "Margin requirement for loans against shares, debentures, and bonds",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "6.6.5",
+      "text": "Total aggregate of such loans shall not exceed 20% of Tier-I capital.",
+      "summary": "Aggregate limit for loans against shares, debentures, and bonds",
+      "type": "Obligation"
+    }
+  ],
+  "obligations": [
+    {
+      "text": "Reckon Tier-I capital as on March 31 of the preceding financial year for fixing exposure limits.",
+      "plain_english": "Calculate Tier-I capital for exposure limits",
+      "applicable_to": [
+        "Urban Co-operative Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "2.1"
+    },
+    {
+      "text": "Limit individual borrower exposure to 15% of Tier-I capital.",
+      "plain_english": "Limit individual borrower exposure",
+      "applicable_to": [
+        "Urban Co-operative Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "3.1.1"
+    },
+    {
+      "text": "Limit group borrower exposure to 25% of Tier-I capital.",
+      "plain_english": "Limit group borrower exposure",
+      "applicable_to": [
+        "Urban Co-operative Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "3.1.1"
+    },
+    {
+      "text": "Ensure at least 50% of aggregate loans comprise Small Value Loans (≤ ₹25 lakh or 0.4% of Tier-I capital).",
+      "plain_english": "Meet Small Value Loans target",
+      "applicable_to": [
+        "Urban Co-operative Banks"
+      ],
+      "deadline_days": "365",
+      "frequency": "One-time",
+      "source_clause": "3.3"
+    },
+    {
+      "text": "Restrict aggregate residential mortgage exposure (non-priority sector) to 25% of total assets.",
+      "plain_english": "Limit real estate exposure",
+      "applicable_to": [
+        "Urban Co-operative Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "3.4.2"
+    },
+    {
+      "text": "Restrict aggregate real estate sector exposure (excluding housing loans to individuals) to 5% of total loans and advances.",
+      "plain_english": "Limit real estate sector exposure",
+      "applicable_to": [
+        "Urban Co-operative Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "3.4.3"
+    },
+    {
+      "text": "Limit total unsecured loans and advances to 10% of total assets as per the preceding year's audited balance sheet.",
+      "plain_english": "Limit unsecured advances",
+      "applicable_to": [
+        "Urban Co-operative Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "4.2.1"
+    },
+    {
+      "text": "Maintain a 50% margin on all advances against the security of shares and debentures.",
+      "plain_english": "Maintain margin on loans against shares and debentures",
+      "applicable_to": [
+        "Urban Co-operative Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "6.6.4"
+    },
+    {
+      "text": "Restrict loans against shares/debentures to ₹5 lakh (physical form) and ₹10 lakh (demat form).",
+      "plain_english": "Limit loans against shares and debentures",
+      "applicable_to": [
+        "Urban Co-operative Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "6.6.3"
+    }
+  ],
+  "prohibitions": [
+    {
+      "text": "Granting of any loans or advances against the security of the bank's own shares.",
+      "plain_english": "No lending against own shares",
+      "applicable_to": [
+        "Urban Co-operative Banks"
+      ],
+      "source_clause": "5.2"
+    },
+    {
+      "text": "Loans, advances, or financial accommodation to directors, their relatives, or entities where they are interested.",
+      "plain_english": "No lending to directors or relatives",
+      "applicable_to": [
+        "Urban Co-operative Banks"
+      ],
+      "source_clause": "6.1.1"
+    },
+    {
+      "text": "Bank finance against shares, debentures, and bonds for stock brokers and commodity brokers.",
+      "plain_english": "No bank finance for stock brokers and commodity brokers",
+      "applicable_to": [
+        "Urban Co-operative Banks"
+      ],
+      "source_clause": "6.6.1"
+    }
+  ],
+  "penalties": [
+    {
+      "amount": "Void remission",
+      "condition": "Granting of loans or advances against the security of the bank's own shares",
+      "section": "5.2"
+    },
+    {
+      "amount": "Not specified",
+      "condition": "Loans, advances, or financial accommodation to directors, their relatives, or entities where they are interested",
+      "section": "6.1.1"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "Tier-I Capital",
+      "definition": "Capital reckoned as of March 31 of the preceding financial year for exposure limit purposes",
+      "plain_english": "Capital for exposure limits"
+    },
+    {
+      "term": "Credit Exposure",
+      "definition": "Sum of funded and non-funded credit limits, underwriting, and leasing/hire-purchase facilities",
+      "plain_english": "Credit exposure"
+    },
+    {
+      "term": "Group Borrowers",
+      "definition": "Borrowing units linked by commonality of management and effective control",
+      "plain_english": "Group borrowers"
+    },
+    {
+      "term": "Unsecured Advance",
+      "definition": "Loans without tangible security, excluding specific government-backed or high-liquidity instrument-backed advances",
+      "plain_english": "Unsecured advances"
+    }
+  ],
+  "references": [
+    {
+      "circular_number": "Master Circular dated April 1, 2025 on Prudential Norms on Capital Adequacy",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "Master Direction on Classification, Valuation and Operation of Investment Portfolio of UCBs dated April 1, 2023",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "Master Direction – Credit Card and Debit Card – Issuance and Conduct Directions, 2022",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "Master Direction – Reserve Bank of India (Filing of Supervisory Returns) Directions – 2024",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "Banking Regulation Act, 1949",
+      "relationship": "references"
+    }
+  ]
+}

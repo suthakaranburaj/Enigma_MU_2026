@@ -1,0 +1,364 @@
+{
+  "circular": {
+    "id": "2022-23_Basel-III-Capital-Regulations",
+    "title": "Master Circular – Basel III Capital Regulations",
+    "date": "2025-04-01",
+    "circular_number": "RBI/2025-26/08 (DOR.CAP.REC.2/21.06.201/2025-26)",
+    "type": "Master Direction",
+    "topic": "Capital Adequacy",
+    "applicable_to": [
+      "Scheduled Commercial Banks"
+    ],
+    "status": "Active",
+    "summary": "This Master Circular provides a consolidated framework for Basel III capital adequacy standards for Scheduled Commercial Banks in India. It defines the minimum capital requirements, internal process for assessing capital adequacy, and mandatory public disclosures. Banks must maintain a Minimum Total Capital of 9% and a Common Equity Tier 1 ratio of 5.5%, supplemented by a 2.5% Capital Conservation Buffer."
+  },
+  "clauses": [
+    {
+      "clause_number": "2.4",
+      "text": "The Basel III capital regulations were implemented in India with effect from April 1, 2013 and have been fully implemented as on October 1, 2021.",
+      "summary": "Basel III implementation in India",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "3.1",
+      "text": "A bank shall comply with the capital adequacy ratio requirements at two levels: (a) consolidated (“Group”) level and (b) standalone (“Solo”) level.",
+      "summary": "Capital adequacy ratio requirements",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "4.1",
+      "text": "Banks shall maintain a minimum Pillar 1 Capital to Risk-weighted Assets Ratio (CRAR) of 9% on an on-going basis",
+      "summary": "Minimum CRAR requirement",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "4.2.2",
+      "text": "Common Equity Tier 1 (CET1) capital must be at least 5.5% of risk-weighted assets (RWAs).",
+      "summary": "Minimum CET1 requirement",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "4.4.1",
+      "text": "Goodwill and all other intangible assets should be deducted from Common Equity Tier 1 capital.",
+      "summary": "Deduction of goodwill and intangible assets",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "5.2.1",
+      "text": "Claims on the central government will attract a zero risk weight.",
+      "summary": "Risk weight for central government claims",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "5.9.1",
+      "text": "Claims that meet all four qualifying criteria (Orientation, Product, Granularity, and Low value) shall be assigned a risk weight of 75%.",
+      "summary": "Risk weight for qualifying claims",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "5.10.1",
+      "text": "Lending to individuals for residential property shall be risk weighted based on LTV ratios",
+      "summary": "Risk weight for residential property lending",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "5.12.1",
+      "text": "The unsecured portion of NPA shall be risk-weighted at 150% when specific provisions are less than 20% of the outstanding amount.",
+      "summary": "Risk weight for NPA",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "5.13.1",
+      "text": "Claims on Venture Capital Funds will attract a risk weight of 150%.",
+      "summary": "Risk weight for Venture Capital Funds",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "5.15.1",
+      "text": "The total risk-weighted off-balance sheet credit exposure is calculated by converting notional amounts to credit equivalents using Credit Conversion Factors (CCFs).",
+      "summary": "Calculation of off-balance sheet credit exposure",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "6.2.1",
+      "text": "Banks should use the chosen credit rating agencies and their ratings consistently for each type of claim.",
+      "summary": "Use of credit rating agencies",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "7.1.2",
+      "text": "No transaction in which CRM techniques are used should receive a higher capital requirement than an otherwise identical transaction where such techniques are not used.",
+      "summary": "CRM techniques",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "7.2",
+      "text": "All documentation used in collateralised transactions and guarantees must be binding on all parties and legally enforceable in all relevant jurisdictions.",
+      "summary": "Documentation for collateralised transactions",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "8.2.2",
+      "text": "Banks are required to manage the market risks in their books on an ongoing basis and ensure that the capital requirements are maintained at the close of each business day.",
+      "summary": "Management of market risks",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "9.2.2",
+      "text": "Banks in India shall compute the capital requirements for operational risk under the Basic Indicator Approach (BIA).",
+      "summary": "Operational risk capital requirements",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "9.3.1",
+      "text": "Banks shall hold capital for operational risk equal to the average over the previous three years of 15% of positive annual gross income.",
+      "summary": "Operational risk capital requirement",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "10.6",
+      "text": "Banks were advised to develop and put in place, with the approval of their Boards, an ICAAP commensurate with their size, level of complexity, and risk profile.",
+      "summary": "ICAAP requirement",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "12.3.2",
+      "text": "Every bank shall have an ICAAP. It shall be prepared on a solo basis at every tier and at the level of the consolidated bank.",
+      "summary": "ICAAP preparation",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "12.3.3.6",
+      "text": "The ICAAP Document should reach the RBI latest by end of the first quarter (i.e., April-June) of the relevant financial year.",
+      "summary": "ICAAP submission",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "14.7",
+      "text": "Banks should have a formal disclosure policy approved by the Board of Directors that addresses the bank’s approach for determining what disclosures it will make.",
+      "summary": "Disclosure policy",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "14.9.2",
+      "text": "Banks are required to make Pillar 3 disclosures at least on a half-yearly basis (Quarterly for Tables DF-2, DF-3, and DF-4).",
+      "summary": "Pillar 3 disclosures",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "15.2.1",
+      "text": "Banks are required to maintain a CCB of 2.5%, comprised of CET1 capital, above the regulatory minimum CRAR of 9%.",
+      "summary": "CCB requirement",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "16.2.2",
+      "text": "The minimum Leverage Ratio shall be 4% for Domestic Systemically Important Banks (D-SIBs) and 3.5% for other banks.",
+      "summary": "Leverage ratio requirement",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "16.5.1",
+      "text": "Banks are required to publicly disclose their Basel III leverage ratio on a consolidated basis.",
+      "summary": "Leverage ratio disclosure",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "17.2.1",
+      "text": "The CCCB may be maintained in the form of CET1 capital only, and the amount may vary from 0 to 2.5% of total RWAs.",
+      "summary": "CCCB requirement",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "17.2.6",
+      "text": "CCCB shall be maintained on a solo basis as well as on consolidated basis.",
+      "summary": "CCCB maintenance",
+      "type": "Obligation"
+    }
+  ],
+  "obligations": [
+    {
+      "text": "Maintain a minimum Pillar 1 Capital to Risk-weighted Assets Ratio (CRAR) of 9% on an ongoing basis",
+      "plain_english": "Banks must maintain a minimum CRAR of 9%",
+      "applicable_to": [
+        "Scheduled Commercial Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "4.1"
+    },
+    {
+      "text": "Maintain a minimum Common Equity Tier 1 (CET1) capital of 5.5% of risk-weighted assets (RWAs)",
+      "plain_english": "Banks must maintain a minimum CET1 of 5.5%",
+      "applicable_to": [
+        "Scheduled Commercial Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "4.2.2"
+    },
+    {
+      "text": "Deduct Goodwill and all other intangible assets from Common Equity Tier 1 capital",
+      "plain_english": "Banks must deduct goodwill and intangible assets from CET1",
+      "applicable_to": [
+        "Scheduled Commercial Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "4.4.1"
+    },
+    {
+      "text": "Maintain a Capital Conservation Buffer (CCB) of 2.5% of RWAs in the form of CET1 capital",
+      "plain_english": "Banks must maintain a CCB of 2.5%",
+      "applicable_to": [
+        "Scheduled Commercial Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "15.2.1"
+    },
+    {
+      "text": "Establish a Board-approved policy on Internal Capital Adequacy Assessment Process (ICAAP)",
+      "plain_english": "Banks must establish an ICAAP policy",
+      "applicable_to": [
+        "Scheduled Commercial Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "10.6"
+    },
+    {
+      "text": "Submit the ICAAP Document to the RBI in the prescribed format",
+      "plain_english": "Banks must submit their ICAAP document to RBI",
+      "applicable_to": [
+        "Scheduled Commercial Banks"
+      ],
+      "deadline_days": 90,
+      "frequency": "Annual",
+      "source_clause": "12.3.3.6"
+    },
+    {
+      "text": "Maintain a minimum Leverage Ratio of 4% for D-SIBs and 3.5% for other banks",
+      "plain_english": "Banks must maintain a minimum leverage ratio",
+      "applicable_to": [
+        "Scheduled Commercial Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Ongoing",
+      "source_clause": "16.2.2"
+    },
+    {
+      "text": "Disclose Pillar 3 information at least half-yearly (with key tables disclosed quarterly)",
+      "plain_english": "Banks must disclose Pillar 3 information",
+      "applicable_to": [
+        "Scheduled Commercial Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Half-Yearly",
+      "source_clause": "14.9.2"
+    }
+  ],
+  "prohibitions": [
+    {
+      "text": "No transaction in which CRM techniques are used should receive a higher capital requirement than an otherwise identical transaction where such techniques are not used",
+      "plain_english": "Banks cannot use CRM techniques to increase capital requirements",
+      "applicable_to": [
+        "Scheduled Commercial Banks"
+      ],
+      "source_clause": "7.1.2"
+    }
+  ],
+  "penalties": [
+    {
+      "amount": "Potential financial penalty",
+      "condition": "Failure to disclose Pillar 3 information",
+      "section": "14.9.2"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "Common Equity Tier 1 (CET1)",
+      "definition": "The highest quality component of capital, primarily common shares and retained earnings, ensuring bank solvency",
+      "plain_english": "CET1 is the highest quality capital that ensures a bank's solvency"
+    },
+    {
+      "term": "Additional Tier 1 (AT1)",
+      "definition": "Capital instruments like Perpetual Non-Cumulative Preference Shares (PNCPS) that absorb losses on a going-concern basis",
+      "plain_english": "AT1 is a type of capital that absorbs losses on a going-concern basis"
+    },
+    {
+      "term": "Tier 2 Capital",
+      "definition": "Subordinated debt and general provisions that absorb losses in a 'gone-concern' (liquidation) situation",
+      "plain_english": "Tier 2 capital absorbs losses in a liquidation situation"
+    },
+    {
+      "term": "Credit Risk",
+      "definition": "The risk that a party to a contractual agreement will be unable to meet their obligations",
+      "plain_english": "Credit risk is the risk that a party will not meet their obligations"
+    },
+    {
+      "term": "Market Risk",
+      "definition": "The risk of losses arising from movements in market prices (interest rates, equities, foreign exchange)",
+      "plain_english": "Market risk is the risk of losses due to market price movements"
+    },
+    {
+      "term": "Operational Risk",
+      "definition": "The risk of loss resulting from inadequate or failed internal processes, people, and systems or from external events",
+      "plain_english": "Operational risk is the risk of loss due to internal or external factors"
+    },
+    {
+      "term": "ICAAP",
+      "definition": "Internal Capital Adequacy Assessment Process; a bank's own assessment of its risks and required capital",
+      "plain_english": "ICAAP is a bank's assessment of its risks and capital requirements"
+    },
+    {
+      "term": "SREP",
+      "definition": "Supervisory Review and Evaluation Process; the RBI's evaluation of a bank's ICAAP",
+      "plain_english": "SREP is the RBI's evaluation of a bank's ICAAP"
+    },
+    {
+      "term": "LTV Ratio",
+      "definition": "Loan-to-Value ratio; the loan amount as a percentage of the value of the mortgaged property",
+      "plain_english": "LTV ratio is the loan amount as a percentage of the property value"
+    },
+    {
+      "term": "Risk Weighted Assets (RWA)",
+      "definition": "Assets weighted according to their risk level to determine minimum capital requirements",
+      "plain_english": "RWA is assets weighted by risk level to determine capital requirements"
+    }
+  ],
+  "references": [
+    {
+      "circular_number": "DOR.CAP.REC.4/21.06.201/2024-25",
+      "relationship": "supersedes"
+    },
+    {
+      "circular_number": "DBOD.No.BP.BC.98/21.06.201/2011-12",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "Master Direction – Classification, Valuation and Operation of Investment Portfolio (2023)",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "Master Direction – Reserve Bank of India (Securitisation of Standard Assets) Directions, 2021",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "Circular DOR.STR.REC.57/21.06.001/2023-24",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "Banking Regulation Act, 1949 (Section 11(2))",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "FEMA Notification No. 20 (May 3, 2000)",
+      "relationship": "references"
+    },
+    {
+      "circular_number": "AS 21 / AS 23",
+      "relationship": "references"
+    }
+  ]
+}

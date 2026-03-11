@@ -1,0 +1,122 @@
+{
+  "circular": {
+    "id": "Commercial-Banks-Branch-Authorisation",
+    "title": "Reserve Bank of India (Commercial Banks - Branch Authorisation) Directions, 2025",
+    "date": "2025-11-28",
+    "circular_number": "RBI/DOR/2025-26/147",
+    "type": "Master Direction",
+    "topic": "Governance",
+    "applicable_to": [
+      "Commercial Banks",
+      "State Bank of India",
+      "Wholly Owned Subsidiaries (WOS) of Foreign Banks"
+    ],
+    "status": "Active",
+    "summary": "The Reserve Bank of India has issued directions for the authorization, opening, shifting, and closure of banking outlets and specialized units like Digital Banking Units. The policy grants general permission to domestic scheduled commercial banks to open outlets in Tier 1 to Tier 6 centres, provided at least 25% of new outlets in a financial year are located in Unbanked Rural Centres. The directions also detail the Business Correspondent model, doorstep banking services, and mandatory reporting requirements through the Central Information System for Banking Infrastructure."
+  },
+  "clauses": [
+    {
+      "clause_number": "1",
+      "text": "These Directions shall be called the Reserve Bank of India (Commercial Banks - Branch Authorisation) Directions, 2025.",
+      "summary": "Short title and commencement of the directions",
+      "type": "Definition"
+    },
+    {
+      "clause_number": "3",
+      "text": "These Directions shall be applicable to Commercial Banks (banking companies other than SFBs, Payment Banks, and Local Area Banks).",
+      "summary": "Applicability of the directions",
+      "type": "Definition"
+    },
+    {
+      "clause_number": "4",
+      "text": "This section defines terms including Administrative Office, Back Office, Banking Outlet, Part-time Banking Outlet, Digital Banking, Digital Banking Unit (DBU), and Unbanked Rural Centre (URC).",
+      "summary": "Definitions of key terms",
+      "type": "Definition"
+    },
+    {
+      "clause_number": "6",
+      "text": "A bank shall put in place separate Board-approved policies for opening, merging, shifting, conversion and closure of Banking Outlets.",
+      "summary": "Policy requirements for banking outlets",
+      "type": "Obligation"
+    },
+    {
+      "clause_number": "8",
+      "text": "Domestic scheduled commercial banks are permitted to open Banking Outlets in Tier 1 to Tier 6 centres without prior RBI permission, subject to specific restrictions.",
+      "summary": "General permission for domestic scheduled commercial banks",
+      "type": "Prohibition"
+    },
+    {
+      "clause_number": "9",
+      "text": "At least 25 percent of the total number of ‘Banking Outlets’ opened during a financial year shall be opened in Unbanked Rural Centres (URCs).",
+      "summary": "Condition for opening banking outlets",
+      "type": "Obligation"
+    }
+  ],
+  "obligations": [
+    {
+      "text": "At least 25% of total Banking Outlets opened in a financial year must be in Unbanked Rural Centres (URCs).",
+      "plain_english": "Banks must open at least 25% of their new outlets in rural areas",
+      "applicable_to": [
+        "Commercial Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "Annual",
+      "source_clause": "9"
+    },
+    {
+      "text": "Put in place separate Board-approved policies for opening/closing outlets, BC engagement, DBUs, and Doorstep Banking.",
+      "plain_english": "Banks must have board-approved policies for various banking activities",
+      "applicable_to": [
+        "Commercial Banks"
+      ],
+      "deadline_days": null,
+      "frequency": "One-time",
+      "source_clause": "6"
+    },
+    {
+      "text": "Report opening, closure, merger, shifting, or conversion of outlets/ATMs on the CISBI portal.",
+      "plain_english": "Banks must report changes to outlets and ATMs on the CISBI portal",
+      "applicable_to": [
+        "Commercial Banks"
+      ],
+      "deadline_days": 7,
+      "frequency": "Ongoing",
+      "source_clause": "12"
+    }
+  ],
+  "prohibitions": [
+    {
+      "text": "Shifting, merger, or closure of any rural or sole semi-urban Banking Outlet requires approval from the District Consultative Committee (DCC) / District Level Review Committee (DLRC).",
+      "plain_english": "Banks cannot shift or close rural outlets without approval",
+      "applicable_to": [
+        "Commercial Banks"
+      ],
+      "source_clause": "14"
+    }
+  ],
+  "penalties": [
+    {
+      "amount": "Restrictions on Tier 1 openings",
+      "condition": "Failure to meet the 25% URC requirement",
+      "section": "9"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "Administrative Office",
+      "definition": "An office where the bank's administrative functions are carried out",
+      "plain_english": "An office where the bank's administrative work is done"
+    },
+    {
+      "term": "Back Office",
+      "definition": "An office where the bank's back-office functions are carried out",
+      "plain_english": "An office where the bank's back-office work is done"
+    }
+  ],
+  "references": [
+    {
+      "circular_number": "DOR.RRC.REC.302/33-01-010/2025-26",
+      "relationship": "supersedes"
+    }
+  ]
+}
